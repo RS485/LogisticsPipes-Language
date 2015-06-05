@@ -34,6 +34,7 @@ item.PipeItemsProviderLogisticsMk2=Логистическая труба-про�
 item.PipeItemsProviderLogisticsMk2.tip1=Тип\: Источник предметов
 item.PipeItemsProviderLogisticsMk2.tip2=- Присоединяется к инвентарю
 item.PipeItemsProviderLogisticsMk2.tip3=- Посылает стак предметов в сеть по запросу
+item.PipeItemsProviderLogisticsMk2.tip4=- Игнорирует трубы снабжения на том же блоке.
 
 item.PipeItemsCraftingLogistics=Логистическая труба создания
 item.PipeItemsCraftingLogistics.tip1=Тип\: Активный запросчик + источник
@@ -173,9 +174,13 @@ item.ModuleOreDictItemSink=OreDict ItemSink модуль
 item.ModuleThaumicAspectSink=Таум-AspectSink модуль
 item.ModuleEnchantmentSink=Enchantment Sink module
 item.ModuleEnchantmentSinkMK2=Enchantment Sink module MK2
+item.ModuleCrafter=Модуль создания
+item.ModuleCrafterMK2=Модуль создания MK2
+item.ModuleCrafterMK3=Модуль создания MK3
 
 # Items
 
+item.pipeController=Логистический контроллер труб
 item.brokenItem=Логистический сломанный предмет
 item.logisticsFluidContainer=Логистический жидкостный контейнер
 # %cRED (DEPRECATED) %cRESET
@@ -220,9 +225,12 @@ item.IC2MVPowerSupplierUpgrade=Улучшение\: Снабжение энер�
 item.IC2HVPowerSupplierUpgrade=Улучшение\: Снабжение энергией ВН IC2
 item.IC2EVPowerSupplierUpgrade=Улучшение\: Снабжение энергией СВН IC2
 item.CCRemoteControlUpgrade=Улучшение\: Удалённый CC контроль
+item.OpaqueUpgrade="Непрозрачнная" улучшение
 
 #Upgrade info
 
+item.upgrade.info.all=Все
+item.upgrade.info.chassi=Шасси
 
 # Blocks
 tile.solderingstation=Паяльная станция
@@ -242,9 +250,14 @@ misc.extractionmode.LeaveLast=Оставлять последний стак
 misc.extractionmode.LeaveFirstAndLast=Оставлять первый и последний стак
 misc.extractionmode.Leave1PerStack=Оставлять 1 предмет за стак
 misc.extractionmode.Leave1PerType=Оставлять 1 предмет за тип
+misc.selectType=Выбрать тип
+misc.selectOreDict=Выбрать OreDict тип
 
 #Misc Chat messages
 
+lp.chat.permissiondenied=Доступ запрещен
+lp.chat.connectedtopipe=Подключен к трубе
+lp.misc.noenergy=Нет энергии
 
 # GUI
 
@@ -261,6 +274,8 @@ gui.crafting.OreDict=OreDict
 gui.crafting.IgnDamage=IgnDamage
 gui.crafting.IgnNBT=IgnNBT
 gui.crafting.OrePrefix=OrePrefix
+gui.crafting.Include=Добавлять
+gui.crafting.Exclude=Исключать
 
 gui.firewall.Blocked=Заблокирован
 gui.firewall.Allowed=Разрешён
@@ -276,9 +291,13 @@ gui.fluidbasic.Empty=Пусто
 
 gui.fluidsuppliermk2.Inventory=Инвентарь
 gui.fluidsuppliermk2.Fluid=Жидкость
+gui.fluidsuppliermk2.Partial=Частично
 gui.fluidsuppliermk2.Yes=Да
 gui.fluidsuppliermk2.No=Нет
 gui.fluidsuppliermk2.TargetInv=Fluid to keep stocked
+gui.fluidsuppliermk2.ONEBUCKET=1 ведро
+gui.fluidsuppliermk2.TWOBUCKET=2 ведра
+gui.fluidsuppliermk2.FIVEBUCKET=5 ведер
 
 gui.fluidsupplier.TargetInv=Fluids to keep stocked
 gui.fluidsupplier.Inventory=Инвентарь
@@ -348,6 +367,14 @@ gui.upgrademanager.Upgrades=Улучшения
 gui.upgrademanager.Inventory=Инвентарь
 gui.upgrademanager.SneakyUpgrades=Скрытые улучшения
 
+gui.pipecontroller.upgrade=Улучшения
+gui.pipecontroller.inventory=Инвентарь
+gui.pipecontroller.Session=Сессия
+gui.pipecontroller.Lifetime=За все время
+gui.pipecontroller.Sent=Отправлено
+gui.pipecontroller.Recieved=Получено
+gui.pipecontroller.Relayed=Передано
 
+gui.networkstatistics.add.alreadytracked=Этот тип предметов уже отслеживается
 
 

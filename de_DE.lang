@@ -179,7 +179,7 @@ item.ModuleCCBasedQuickSort=CC-basiertes QuickSort-Modul
 item.ModuleCrafter=Fertigungsmodul
 item.ModuleCrafterMK2=Fertigungsmodul MK2
 item.ModuleCrafterMK3=Fertigungsmodul MK 3
-item.ModuleActiveSupplier=Aktives Versorgermodul
+item.ModuleActiveSupplier=Aktiv-Versorgermodul
 
 # Items
 
@@ -193,7 +193,7 @@ item.HUDglass=Logistisches HUD-Glas
 item.HUDnosebridge=Logistische HUD-Nasensteg
 item.NanoHopper=Nanotrichter
 item.logisticsItemCard=Logistische Item-Karte
-item.itemDisk=Logistische Diskette
+item.itemDisk=Logistische Platte
 # %cRED (DEPRECATED) %cRESET
 item.networkMonitorItem=Netzwerkmonitor
 item.ItemPipeSignCreator.0=Fertigungsschildmacher
@@ -239,41 +239,41 @@ item.UpgradeModuleUpgrade=Upgrade-Modul-Upgrade
 #Upgrade info
 
 item.upgrade.info.both=Kann auf %cYELLOW {0} %cRESET %cGRAY Rohre und %cYELLOW {1} %cRESET %cGRAY Module angewandt werden
-item.upgrade.info.pipe=Kann auf %cYELLOW {0} %cRESET %cGRAY Rohre angewandt werden
-item.upgrade.info.module=Kann auf %cYELLOW {0} %cRESET %cGRAY Module angewandt werden
-item.upgrade.info.all=Alles
-item.upgrade.info.crafting=Fertigung
-item.upgrade.info.itemsink=Item Sink
-item.upgrade.info.supplier=Versorger
-item.upgrade.info.requestblock=Bestellblock
-item.upgrade.info.chassi=Gehäuse
+item.upgrade.info.pipe=Kann auf %cYELLOW {0}%cRESET %cGRAY Rohre angewandt werden
+item.upgrade.info.module=Kann auf %cYELLOW {0}%cRESET %cGRAY Module angewandt werden
+item.upgrade.info.all=alle 
+item.upgrade.info.crafting=Fertigungs-
+item.upgrade.info.itemsink=ItemSink-
+item.upgrade.info.supplier=Versorger-
+item.upgrade.info.requestblock=Bestellblock-
+item.upgrade.info.chassi=Gehäuse-
 
 # Blocks
 tile.solderingstation=Lötstation
 tile.logisticspowerjunction=Logistisches Energierelais
 tile.logisticssecuritystation=Logistische Sicherheitsstation
 tile.logisticscraftingtable=Logistische Werkbank
-tile.logisticsfuzzycraftingtable=Logistischer Ungenauer Fertigungstisch
+tile.logisticsfuzzycraftingtable=Logistische Ungenaue Werkbank
 tile.logisticsbcpowerprovider=Logistischer MJ-Energieanbieter
 tile.logisticsic2powerprovider=Logistischer EU-Energieanbieter
 tile.logisticstepowerprovider=Logistischer RF-Energieanbieter
-tile.logisticsstatisticstable=Logistischer Statistik-Fertigungstisch
+tile.logisticsstatisticstable=Logistischer Statistiktisch
 
 # Misc
 itemGroup.Logistics_Pipes=Logistics Pipes
 misc.holdshift=<Halte %cYELLOW %cITALIC Shift %cRESET %cGRAY für Details>
 misc.extractionmode.Normal=Normal
-misc.extractionmode.LeaveFirst=1. Stack halten
-misc.extractionmode.LeaveLast=Letzten Stack halten
-misc.extractionmode.LeaveFirstAndLast=Ersten&letzten Stack halten
-misc.extractionmode.Leave1PerStack=1 Item pro Stack halten
-misc.extractionmode.Leave1PerType=1 Item pro Typ halten
+misc.extractionmode.LeaveFirst=1. Stack behalten
+misc.extractionmode.LeaveLast=Letzen Stack behalten
+misc.extractionmode.LeaveFirstAndLast=Ersten&Letzen Stack behalten
+misc.extractionmode.Leave1PerStack=1 item je Stack behalten
+misc.extractionmode.Leave1PerType=1 item je Typ behalten
 misc.selectType=Wähle Typ
 misc.selectOreDict=Wähle OreDict-Typ
 
 #Misc Chat messages
 
-lp.chat.slotnotfound=Konnte diesen Slot intern nicht finden. Sorry, Bitte versuche es erneut.
+lp.chat.slotnotfound=Konnte diesen Slot intern nicht finden. Sorry. Bitte versuche es erneut.
 lp.chat.permissiondenied=Zugriff verweigert
 lp.chat.connectedtopipe=Mit Rohr verbunden
 lp.misc.noenergy=Keine Energie
@@ -282,7 +282,7 @@ lp.hud.config.chassie.disabled=Gehäuse deaktiviert.
 lp.hud.config.crafting.enabled=Fertigung aktiviert.
 lp.hud.config.crafting.disabled=Fertigung deaktiviert.
 lp.hud.config.invsyscon.enabled=InvSysKon aktiviert.
-lp.hud.config.invsyscon.disabled=InvSysKCon aktiviert.
+lp.hud.config.invsyscon.disabled=InvSysKon deaktiviert.
 lp.hud.config.powerjunction.enabled=Energierelais aktiviert.
 lp.hud.config.powerjunction.disabled=Energierelais deaktiviert.
 lp.hud.config.provider.enabled=Anbieter aktiviert.
@@ -292,11 +292,11 @@ lp.hud.config.satellite.disabled=Satellit deaktiviert.
 
 # GUI
 
-gui.crafting.Inputs=Eingänge
+gui.crafting.Inputs=Inputs
 gui.crafting.Inventory=Inventar
-gui.crafting.Import=Importieren
+gui.crafting.Import=Import
 gui.crafting.Open=Öffnen
-gui.crafting.Output=Ausgang
+gui.crafting.Output=Output
 gui.crafting.Satellite=Satellit
 gui.crafting.Off=Aus
 gui.crafting.Priority=Priorität
@@ -305,8 +305,8 @@ gui.crafting.OreDict=OreDict
 gui.crafting.IgnDamage=IgnDamage
 gui.crafting.IgnNBT=IgnNBT
 gui.crafting.OrePrefix=OrePrefix
-gui.crafting.Include=Einschließen
-gui.crafting.Exclude=Ausschließen
+gui.crafting.Include=Einschließl.
+gui.crafting.Exclude=Ausschließl.
 
 gui.firewall.Blocked=Blockiert
 gui.firewall.Allowed=Erlaubt
@@ -326,15 +326,15 @@ gui.fluidsuppliermk2.Partial=Teilweise
 gui.fluidsuppliermk2.minMode=Min. Modus
 gui.fluidsuppliermk2.Yes=Ja
 gui.fluidsuppliermk2.No=Nein
-gui.fluidsuppliermk2.TargetInv=Versorgt zu haltende Flüssigkeit
+gui.fluidsuppliermk2.TargetInv=Flüssigkeit
 gui.fluidsuppliermk2.NONE=Nichts
-gui.fluidsuppliermk2.ONEBUCKET=1 Eimer
-gui.fluidsuppliermk2.TWOBUCKET=2 Eimer
-gui.fluidsuppliermk2.FIVEBUCKET=5 Eimer
+gui.fluidsuppliermk2.ONEBUCKET=1 Bucket
+gui.fluidsuppliermk2.TWOBUCKET=2 Buckets
+gui.fluidsuppliermk2.FIVEBUCKET=5 Buckets
 
-gui.fluidsupplier.TargetInv=Versorgt zu haltende Flüssigkeiten
+gui.fluidsupplier.TargetInv=Flüssigkeit
 gui.fluidsupplier.Inventory=Inventar
-gui.fluidsupplier.Partialrequests=Teilweise Bestellen
+gui.fluidsupplier.Partialrequests=Teilbestellung
 gui.fluidsupplier.Yes=Ja
 gui.fluidsupplier.No=Nein
 
@@ -353,27 +353,27 @@ gui.powerprovider.LogisticsEUPowerProvider=Logistischer EU-Energieanbieter
 gui.powerprovider.LogisticsRFPowerProvider=Logistischer RF-Energieanbieter
 gui.powerprovider.StoredEnergy=Gespeicherte Energie
 
-gui.providerpipe.TargetInv=Anzubietende Items (oder leer für alles)
+gui.providerpipe.TargetInv=Anzubietende Items (halte leer für Alles)
 gui.providerpipe.Inventory=Inventar
 gui.providerpipe.Mode=Modus
-gui.providerpipe.Exclude=Ausschließlich
-gui.providerpipe.Include=Einschließlich
-gui.providerpipe.Switch=Schalten
+gui.providerpipe.Exclude=Ausschließl.
+gui.providerpipe.Include=Einschließl.
+gui.providerpipe.Switch=Wechseln
 
 gui.routingstats.Session=Session
 gui.routingstats.Lifetime=Laufzeit
 gui.routingstats.Sent=Gesendet
 gui.routingstats.Recieved=Empfangen
-gui.routingstats.Relayed=Übertragen
+gui.routingstats.Relayed=Weitergeleitet
 gui.routingstats.RoutingTableSize=Routenplangröße
-gui.routingstats.exit=Drücke <ESC> zum schließen
+gui.routingstats.exit=<ESC> zum Schließen
 
 gui.satellite.SatelliteID=Satelliten-ID
 
 gui.securitystation.Open=Öffnen
 gui.securitystation.EditTable=Tabelle bearbeiten
-gui.securitystation.Authorize=Authorisieren
-gui.securitystation.Deauthorize=Deauthorisieren
+gui.securitystation.Authorize=Autorisieren
+gui.securitystation.Deauthorize=Deautorisieren
 gui.securitystation.SecurityStation=Sicherheitsstation
 gui.securitystation.allowCCAccess=ComputerCraft-Zugriff erlauben
 gui.securitystation.excludeIDs=Ausgeschlossene ComputerCraft-IDs
@@ -385,14 +385,14 @@ gui.securitystation.popup.ccAccess.Remove=Entfernen
 gui.securitystation.popup.ccAccess.Add=Hinzufügen
 gui.securitystation.popup.player.Close=Schließen
 gui.securitystation.popup.player.Player=Spieler
-gui.securitystation.popup.player.ConfigureSettings=Einstellungen bearbeiten
+gui.securitystation.popup.player.ConfigureSettings=Einstellungen
 gui.securitystation.popup.player.ActiveRequesting=Aktives Bestellen
-gui.securitystation.popup.player.UpgradePipes=Rohre upgraden
-gui.securitystation.popup.player.CheckNetwork=Netzwerk prüfen
-gui.securitystation.popup.player.RemovePipes=Rohre entfernen
+gui.securitystation.popup.player.UpgradePipes=Rohr-Upgrades
+gui.securitystation.popup.player.CheckNetwork=Netzwerkprüfung
+gui.securitystation.popup.player.RemovePipes=Rohrentfernung
 
-gui.supplierpipe.TargetInv=Versorgt zu haltende Items
-gui.supplierpipe.TargetInvPattern=In den spezifizierten Slots zu haltende Items
+gui.supplierpipe.TargetInv=Items
+gui.supplierpipe.TargetInvPattern=Items für bestimmte Slots
 gui.supplierpipe.Inventory=Inventar
 gui.supplierpipe.RequestMode=Bestellmodus
 
@@ -411,9 +411,9 @@ gui.pipecontroller.Recieved=Empfangen
 gui.pipecontroller.Relayed=Weitergeleitet
 gui.pipecontroller.RoutingTableSize=Routenplangröße
 
-gui.networkstatistics.amount=Schienenzahl
+gui.networkstatistics.amount=Verfolge Menge
 gui.networkstatistics.crafting=Zeige aktive Fertigungen
-gui.networkstatistics.gettasks=Aufgaben erhalten
+gui.networkstatistics.gettasks=Aufgaben einsehen
 gui.networkstatistics.add.alreadytracked=Dieses Item wird bereits verfolgt
 
 

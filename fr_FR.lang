@@ -1,0 +1,93 @@
+# Master language file
+
+# Insert %c and the name found in logisticspipes.utils.string.ChatColor to add colors
+# Example '%cYELLOW ' (The space behind will be removed)
+
+# Pipes
+
+item.PipeItemsBasicLogistics=Tuyau Logistique Basique
+item.PipeItemsBasicLogistics.tip1=Type \: Destination d'envoi passif
+item.PipeItemsBasicLogistics.tip2=- Transmet les objets à travers le réseau.
+item.PipeItemsBasicLogistics.tip3=- Met des types spécifiques d'objets dans des coffres.
+item.PipeItemsBasicLogistics.tip4=-Peut être un itinéraire par défaut.
+
+item.PipeItemsRequestLogistics=Tuyau logistique de demande
+item.PipeItemsRequestLogistics.tip1=Type \: Demandeur actif
+item.PipeItemsRequestLogistics.tip2=- Vous permet de demander des objets manuellement.
+item.PipeItemsRequestLogistics.tip3=- Les objets peuvent venir de toute source.
+item.PipeItemsRequestLogistics.tip4=- Installez un coffre contre ce tuyau pour récupérer les objets demandés.
+
+item.PipeItemsRequestLogisticsMk2=Tuyau logistique de demande Mk2
+item.PipeItemsRequestLogisticsMk2.tip1=Type \: Demandeur actif
+item.PipeItemsRequestLogisticsMk2.tip2=- Plus rapide qu'un Mk1.
+item.PipeItemsRequestLogisticsMk2.tip3=- Vous permet de demander des objets manuellement.
+item.PipeItemsRequestLogisticsMk2.tip4=- Les objets peuvent venir de toute source.
+item.PipeItemsRequestLogisticsMk2.tip5=- Installez un coffre contre ce tuyau pour récupérer les objets demandés.
+
+item.PipeItemsProviderLogistics=Tuyau logistique d'approvisionnement
+item.PipeItemsProviderLogistics.tip1=Type \: Source d'objets
+item.PipeItemsProviderLogistics.tip2=- Attachez-le à un inventaire.
+item.PipeItemsProviderLogistics.tip3=- Envoie les objets 16 par 16 dans le réseau lors d'une demande.
+item.PipeItemsProviderLogistics.tip4=- Ignore les fournisseurs sur le même bloc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Modules
+
+#TODO: Add shift tooltip information
+
+# Items
+
+# %cRED (DEPRECATED) %cRESET
+# %cRED (DEPRECATED) %cRESET
+
+# Upgrades
+
+
+#Upgrade info
+
+
+# Blocks
+
+# Misc
+
+#Misc Chat messages
+
+
+# GUI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,128 +6,131 @@
 # Pipes
 
 item.PipeItemsBasicLogistics=Tubo Logístico Básico
-item.PipeItemsBasicLogistics.tip1=Tipo\: Destino passivo
+item.PipeItemsBasicLogistics.tip1=Tipo\: Destino de impulso passivo
 item.PipeItemsBasicLogistics.tip2=- Encaminha objetos pela rede.
 item.PipeItemsBasicLogistics.tip3=- Põe objetos específicos em baús.
-item.PipeItemsBasicLogistics.tip4=- Pode ser um destino predefinido.
+item.PipeItemsBasicLogistics.tip4=- Pode ser uma rota padrão.
 
-item.PipeItemsRequestLogistics=Request Logistics Pipe
-item.PipeItemsRequestLogistics.tip1=Type\: Active requester
-item.PipeItemsRequestLogistics.tip2=- Lets you manually request items
-item.PipeItemsRequestLogistics.tip3=- Items can come from any Item Source pipe
-item.PipeItemsRequestLogistics.tip4=- Put a chest on the pipe to catch items coming out.
+item.PipeItemsRequestLogistics=Tubo Logístico de Requisição
+item.PipeItemsRequestLogistics.tip1=Tipo\: Requisitante ativo
+item.PipeItemsRequestLogistics.tip2=- Permite que você requisite itens manualmente
+item.PipeItemsRequestLogistics.tip3=- Itens podem vir de qualquer tubo de Entrada de Itens
+item.PipeItemsRequestLogistics.tip4=- Coloque um baú no tubo para pegar itens saindo.
 
-item.PipeItemsRequestLogisticsMk2=Request Logistics Pipe Mk2
-item.PipeItemsRequestLogisticsMk2.tip1=Type\: Active requester
-item.PipeItemsRequestLogisticsMk2.tip2=- Faster then a Mk1
-item.PipeItemsRequestLogisticsMk2.tip3=- Lets you manually request items
-item.PipeItemsRequestLogisticsMk2.tip4=- Items can come from any Source pipe
-item.PipeItemsRequestLogisticsMk2.tip5=- Put a chest on the pipe to catch items coming out.
+item.PipeItemsRequestLogisticsMk2=Tubo Logístico de Requisição Mk2
+item.PipeItemsRequestLogisticsMk2.tip1=Tipo\: Requisitante ativo
+item.PipeItemsRequestLogisticsMk2.tip2=- Mais rápido que um Mk1
+item.PipeItemsRequestLogisticsMk2.tip3=- Permite que você requisite itens manualmente
+item.PipeItemsRequestLogisticsMk2.tip4=- Itens podem vir de qualquer tubo de Entrada de Itens
+item.PipeItemsRequestLogisticsMk2.tip5=- Coloque um baú no tubo para pegar itens saindo.
 
-item.PipeItemsProviderLogistics=Provider Logistics Pipe
-item.PipeItemsProviderLogistics.tip1=Type\: Item Source
-item.PipeItemsProviderLogistics.tip2=- Attaches to an inventory
-item.PipeItemsProviderLogistics.tip3=- Sends 16 items into the network on request
+item.PipeItemsProviderLogistics=Tubo Logístico de Provisão
+item.PipeItemsProviderLogistics.tip1=Tipo\: Entrada de Item
+item.PipeItemsProviderLogistics.tip2=- Anexa a um inventário
+item.PipeItemsProviderLogistics.tip3=- Envia 16 itens na rede quando solicitado
+item.PipeItemsProviderLogistics.tip4=Ignora Suplmentares no mesmo bloco.
 
-item.PipeItemsProviderLogisticsMk2=Provider Logistics Pipe Mk2
-item.PipeItemsProviderLogisticsMk2.tip1=Type\: Item Source
-item.PipeItemsProviderLogisticsMk2.tip2=- Attaches to an inventory
-item.PipeItemsProviderLogisticsMk2.tip3=- Sends a stack of items into the network on request
+item.PipeItemsProviderLogisticsMk2=Provedor de Tubulação lógica Mk2
+item.PipeItemsProviderLogisticsMk2.tip1=Fonte do Item
+item.PipeItemsProviderLogisticsMk2.tip2=Atribui para o inventário
+item.PipeItemsProviderLogisticsMk2.tip3=Envia um stack do Item Requisitado pela Rede
+item.PipeItemsProviderLogisticsMk2.tip4=Ignora Suplementares no mesmo bloco.
 
 item.PipeItemsCraftingLogistics=Crafting Logistics Pipe
-item.PipeItemsCraftingLogistics.tip1=Type\: Active Requester + Source
-item.PipeItemsCraftingLogistics.tip2=- Crafts one item at a time.
-item.PipeItemsCraftingLogistics.tip3=- Attaches to an Automatic Crafting Table.
-item.PipeItemsCraftingLogistics.tip4=- Automatically crafts the item inside when requested.
-item.PipeItemsCraftingLogistics.tip5=- Can use a satelite pipe to send inputs elsewhere.
+item.PipeItemsCraftingLogistics.tip1=Solicitação Ativa + Fonte
+item.PipeItemsCraftingLogistics.tip2=Craft de um item por vez.
+item.PipeItemsCraftingLogistics.tip3=Anexo Automático com a Crafting Table.
+item.PipeItemsCraftingLogistics.tip4=Automaticamente crafita o item quando solicitado.
+item.PipeItemsCraftingLogistics.tip5=Pode usar o tubo satélite para enviar para outros lugares.
 
 item.PipeItemsCraftingLogisticsMk2=Crafting Logistics Pipe Mk2
-item.PipeItemsCraftingLogisticsMk2.tip1=Type\: Active Requester + Source
-item.PipeItemsCraftingLogisticsMk2.tip2=- Crafts 16 items at a time.
-item.PipeItemsCraftingLogisticsMk2.tip3=- Attaches to an Automatic Crafting Table.
-item.PipeItemsCraftingLogisticsMk2.tip4=- Automatically crafts the item inside when requested.
-item.PipeItemsCraftingLogisticsMk2.tip5=- Can use a satelite pipe to send inputs elsewhere.
+item.PipeItemsCraftingLogisticsMk2.tip1=Solicitação Ativa + Fonte
+item.PipeItemsCraftingLogisticsMk2.tip2=Craft de 16 Itens de uma vez.
+item.PipeItemsCraftingLogisticsMk2.tip3=Anexo Automático com a Crafting Table.
+item.PipeItemsCraftingLogisticsMk2.tip4=Automaticamente crafita o item quando solicitado.
+item.PipeItemsCraftingLogisticsMk2.tip5=Pode usar o tubo satélite para enviar para outros lugares.
 
 item.PipeItemsCraftingLogisticsMk3=Crafting Logistics Pipe Mk3
-item.PipeItemsCraftingLogisticsMk3.tip1=Type\: Active Requester + Source
-item.PipeItemsCraftingLogisticsMk3.tip2=- Crafts a stack at a time.
-item.PipeItemsCraftingLogisticsMk3.tip3=- Attaches to an Automatic Crafting Table.
-item.PipeItemsCraftingLogisticsMk3.tip4=- Automatically crafts the item inside when requested.
-item.PipeItemsCraftingLogisticsMk3.tip5=- Can use a satelite pipe to send inputs elsewhere.
+item.PipeItemsCraftingLogisticsMk3.tip1=Solicitação Ativa + Fonte
+item.PipeItemsCraftingLogisticsMk3.tip2=- Cria uma stack do item.
+item.PipeItemsCraftingLogisticsMk3.tip3=Anexo Automático com a Crafting Table.
+item.PipeItemsCraftingLogisticsMk3.tip4=Automaticamente crafita o item quando solicitado.
+item.PipeItemsCraftingLogisticsMk3.tip5=Pode usar o tubo satélite para enviar para outros lugares.
 
 item.PipeItemsSatelliteLogistics=Satellite Logistics Pipe
-item.PipeItemsSatelliteLogistics.tip1=Type\: Active request destination
-item.PipeItemsSatelliteLogistics.tip2=- A crafting pipe can send additional inputs here
+item.PipeItemsSatelliteLogistics.tip1=Requerimento de Destino Ativa
+item.PipeItemsSatelliteLogistics.tip2=Um tubo de crafting pode enviar adicionais por aqui
 
 item.PipeItemsSupplierLogistics=Supplier Logistics Pipe
-item.PipeItemsSupplierLogistics.tip1=Type\: Active item requester
-item.PipeItemsSupplierLogistics.tip2=- Automatically fills a chest or machine
-item.PipeItemsSupplierLogistics.tip3=- Can get items from any Item Source.
+item.PipeItemsSupplierLogistics.tip1=Requerimento de item ativo
+item.PipeItemsSupplierLogistics.tip2=Automaticamente preenche o Baú ou Máquina
+item.PipeItemsSupplierLogistics.tip3=Pode obter itens de qualquer origem.
+item.PipeItemsSupplierLogistics.tip4=Ignora os provedores no mesmo Bloco.
 
 item.PipeItemsBuilderSupplierLogistics=Builder Supplier Logistics Pipe
-item.PipeItemsBuilderSupplierLogistics.tip1=Type\: Active item requester
-item.PipeItemsBuilderSupplierLogistics.tip2=- Automatically fills a builder with required materials
+item.PipeItemsBuilderSupplierLogistics.tip1=Requerimento de item ativo
+item.PipeItemsBuilderSupplierLogistics.tip2=Automaticamente preenche o construtor com os materiais necessários
 
 item.PipeLogisticsChassiMk1=Logistics Chassis Mk1
-item.PipeLogisticsChassiMk1.tip1=Type\: Mixed
-item.PipeLogisticsChassiMk1.tip2=- Can hold 1 module.
+item.PipeLogisticsChassiMk1.tip1=Misturado
+item.PipeLogisticsChassiMk1.tip2=- Pode usar 1 modulo.
 
 item.PipeLogisticsChassiMk2=Logistics Chassis Mk2
-item.PipeLogisticsChassiMk2.tip1=Type\: Mixed
-item.PipeLogisticsChassiMk2.tip2=- Can hold 2 modules.
+item.PipeLogisticsChassiMk2.tip1=Misturado
+item.PipeLogisticsChassiMk2.tip2=Pode Usar 2 módulos.
 
 item.PipeLogisticsChassiMk3=Logistics Chassis Mk3
-item.PipeLogisticsChassiMk3.tip1=Type\: Mixed
-item.PipeLogisticsChassiMk3.tip2=- Can hold 3 modules.
+item.PipeLogisticsChassiMk3.tip1=Misturado
+item.PipeLogisticsChassiMk3.tip2=Pode Usar 3 módulos.
 
 item.PipeLogisticsChassiMk4=Logistics Chassis Mk4
-item.PipeLogisticsChassiMk4.tip1=Type\: Mixed
-item.PipeLogisticsChassiMk4.tip2=- Can hold 4 modules.
+item.PipeLogisticsChassiMk4.tip1=Misturado
+item.PipeLogisticsChassiMk4.tip2=Pode Usar 4 módulos.
 
 item.PipeLogisticsChassiMk5=Logistics Chassis Mk5
-item.PipeLogisticsChassiMk5.tip1=Type\: Mixed
-item.PipeLogisticsChassiMk5.tip2=- Can hold 8 modules.
+item.PipeLogisticsChassiMk5.tip1=Misturado
+item.PipeLogisticsChassiMk5.tip2=Pode Usar 8 módulos.
 
-item.PipeItemsRemoteOrdererLogistics=Remote Orderer Logistics Pipe
-item.PipeItemsRemoteOrdererLogistics.tip1=Type\: Active requester
-item.PipeItemsRemoteOrdererLogistics.tip2=- Lets you manually request items *remotely*
-item.PipeItemsRemoteOrdererLogistics.tip3=- Can pull from any Item Source
-item.PipeItemsRemoteOrdererLogistics.tip4=- You must right click a Remote Orderer on this pipe.
+item.PipeItemsRemoteOrdererLogistics=Tubo de Logistica Remota
+item.PipeItemsRemoteOrdererLogistics.tip1=Tipo\: Requisitante ativo
+item.PipeItemsRemoteOrdererLogistics.tip2=Permite que você manualmente pegue itens * remotamente *
+item.PipeItemsRemoteOrdererLogistics.tip3=-Pode tirar de qualquer fonte o Item
+item.PipeItemsRemoteOrdererLogistics.tip4=-Você deve clicar com o item de ordem remota neste tubo.
 
-item.PipeItemsApiaristAnalyser=Bee Analyzer Logistics Pipe
-item.PipeItemsApiaristAnalyser.tip1=Type\: Passive Destination
-item.PipeItemsApiaristAnalyser.tip2=- A passive destination for un-analyzed bees
-item.PipeItemsApiaristAnalyser.tip3=- Allows for automatic analyzing
+item.PipeItemsApiaristAnalyser=Tubo Analizador de Abelha logíca
+item.PipeItemsApiaristAnalyser.tip1=Tipo\:  Destino Passivo
+item.PipeItemsApiaristAnalyser.tip2=-Um destino passivo para abelhas não analisadas
+item.PipeItemsApiaristAnalyser.tip3=-Permite a análise automática
 
 item.PipeItemsApiaristSink=BeeSink Logistics Pipe
-item.PipeItemsApiaristSink.tip1=Type\: Passive Destination
-item.PipeItemsApiaristSink.tip2=- A passive destination for analyzed bees
-item.PipeItemsApiaristSink.tip3=- Can filter based on genetic properties and genome.
+item.PipeItemsApiaristSink.tip1=Tipo\: Destino Passivo 
+item.PipeItemsApiaristSink.tip2=-Um destino passivo para abelhas analisadas
+item.PipeItemsApiaristSink.tip3=-Pode filtrar com base nas Propriedades de genéticas e genoma.
 
-item.PipeItemsInvSysConnector=Logistics Inventory System Connector
-item.PipeItemsInvSysConnector.tip1=Type\: Bridge
-item.PipeItemsInvSysConnector.tip2=- Connects two logistics networks together
-item.PipeItemsInvSysConnector.tip3=over a shared inventory
-item.PipeItemsInvSysConnector.tip4=- Usually used with an ender chest but you
+item.PipeItemsInvSysConnector=Conector do sistema de inventário de logística
+item.PipeItemsInvSysConnector.tip1=Ponte
+item.PipeItemsInvSysConnector.tip2=-Conecta duas redes de logística
+item.PipeItemsInvSysConnector.tip3=um inventário compartilhado
+item.PipeItemsInvSysConnector.tip4=-Normalmente usado com um bau do ender
 item.PipeItemsInvSysConnector.tip5=can get clever with trains too...
 
-item.PipeItemsSystemEntranceLogistics=Logistics System Entrance Pipe
-item.PipeItemsSystemEntranceLogistics.tip1=Type\: Router
-item.PipeItemsSystemEntranceLogistics.tip2=- Sends un-routable items to a matched
-item.PipeItemsSystemEntranceLogistics.tip3=Destination Pipe.
-item.PipeItemsSystemEntranceLogistics.tip4=- Both Entrance and Destination pipe
-item.PipeItemsSystemEntranceLogistics.tip5=must share a coded frequency card.
+item.PipeItemsSystemEntranceLogistics=Tubulação de entrada do sistema de logística
+item.PipeItemsSystemEntranceLogistics.tip1=Tipo\: roteador
+item.PipeItemsSystemEntranceLogistics.tip2=-Envia itens não-roteáveis para um correspondente
+item.PipeItemsSystemEntranceLogistics.tip3=Tubulação de destino.
+item.PipeItemsSystemEntranceLogistics.tip4=-Tubulação entrada e saida
+item.PipeItemsSystemEntranceLogistics.tip5=deve ter um cartão de freqüência codificada.
 
-item.PipeItemsSystemDestinationLogistics=Logistics System Destination Pipe
-item.PipeItemsSystemDestinationLogistics.tip1=Type\: Special Destination
-item.PipeItemsSystemDestinationLogistics.tip2=- Receives un-routeable items from a
-item.PipeItemsSystemDestinationLogistics.tip3=matched Entrance Pipe
-item.PipeItemsSystemDestinationLogistics.tip4=- Both Entrance and Destination pipe
-item.PipeItemsSystemDestinationLogistics.tip5=must share a coded frequency card.
+item.PipeItemsSystemDestinationLogistics=Tubulação de destino do sistema de logística
+item.PipeItemsSystemDestinationLogistics.tip1=Destino especial
+item.PipeItemsSystemDestinationLogistics.tip2=-Recebe itens Não roteados
+item.PipeItemsSystemDestinationLogistics.tip3=Tubulação de entrada correspondente
+item.PipeItemsSystemDestinationLogistics.tip4=-Tubulação entrada e destino
+item.PipeItemsSystemDestinationLogistics.tip5=deve ter um cartão de freqüência codificada.
 
-item.PipeItemsFirewall=Logistics Firewall Pipe
-item.PipeItemsFirewall.tip1=Type\: Request Filter
-item.PipeItemsFirewall.tip2=- Allows connecting 'hostile' networks
+item.PipeItemsFirewall=Tubulação lógíca com Firewall
+item.PipeItemsFirewall.tip1=Filtragem de solicitação
+item.PipeItemsFirewall.tip2=-Permite a conexão de redes 'hostis'
 item.PipeItemsFirewall.tip3=while allowing only certain items to pass
 
 item.PipeItemsFluidSupplier=Fluid Supplier Pipe
@@ -141,41 +144,200 @@ item.PipeFluidExtractor=Logistics Fluid Extractor Pipe
 # Modules
 
 #TODO: Add shift tooltip information
+item.ModuleBlank=Módulo em branco
+item.ModuleItemSink=Módulo de ItemSink
+item.ModulePassiveSupplier=Módulo Passivo de Fornecimento
+item.ModuleExtractor=Módulo extrator
+item.ModulePolymorphicItemSink=Módulo Polimórfico de ItemSink
+item.ModuleQuickSort=Módulo de Organização Aleatória
+item.ModuleTerminus=Módulo terminal
+item.ModuleAdvancedExtractor=Módulo Avançado de extração
+item.ModuleExtractorMk2=Módulo Extrator MK2 
+item.ModuleAdvancedExtractorMK2=Extrator Avançado MK2
+item.ModuleExtractorMk3=Módulo Extrator MK3
+item.ModuleAdvancedExtractorMK3=Extrator Avançado MK3
+item.ModuleProvider=Módulo Provedor
+item.ModuleProviderMk2=Módulo Provedor MK2
+item.ModuleElectricManager=Módulo de Gerenciamento Elétrico
+item.ModuleElectricBuffer=Módulo de Buffer Eléctrico
+item.ModuleApiaristAnalyser=Módulo Analisador de abelha
+item.ModuleApiaristSink=Módulo de BeeSink
+item.ModuleApiaristRefiller=Módulo de Repreenchimento Apiário
+item.ModuleApiaristTerminus=Módulo Termino de Drone
+item.ModuleModBasedItemSink=Módulo de Verificador de Item com base em mod
+item.ModuleOreDictItemSink=Módulo de Verificador por Dicionario de Minério
+item.ModuleThaumicAspectSink=Módulo de Verificador de Aspecto do Thaumcraft
+item.ModuleEnchantmentSink=Módulo de Encantamento
+item.ModuleEnchantmentSinkMK2=Módulo Encantamento MK2
+item.ModuleCCBasedItemSink=Módulo Verificador de Base CC
+item.ModuleCCBasedQuickSort=Módulo Base de Ordem Aleatória CC
+item.ModuleCrafter=Módulo de Craft
+item.ModuleCrafterMK2=Módulo de Crafting MK2
+item.ModuleCrafterMK3=Módulo de Crafting MK3
+item.ModuleActiveSupplier=Módulo Ativo de Suprimento
 
 # Items
 
+item.pipeController=Controlador de Tubulação Lógica
+item.brokenItem=Item de Lógistica Quebrado
+item.logisticsFluidContainer=Recipiente de Liquido lógico
 # %cRED (DEPRECATED) %cRESET
+item.upgradeManagerItem=Gerenciador de atualização
+item.NanoHopper=Funil Nano
+item.itemDisk=Disco de logística
 # %cRED (DEPRECATED) %cRESET
+item.networkMonitorItem=Monitor de rede
+item.ItemPipeSignCreator.0=Criador de Placa de Crafting.
+item.remoteOrdererItem=Pedido Remoto
 
 # Upgrades
 
+item.BCPowerSupplierUpgrade=Fornecedor de Voltagem do Buildcraft
+item.RFPowerSupplierUpgrade=Fornecedor de Voltagem do Thermal Expansion
+item.IC2LVPowerSupplierUpgrade=Fornecedor de Baixa Voltagem do IC2
+item.IC2MVPowerSupplierUpgrade=Fornecedor de Média Voltagem do IC2
+item.IC2HVPowerSupplierUpgrade=Fornecedor de Alta Voltagem do IC2
+item.IC2EVPowerSupplierUpgrade=Fornecedor de Voltagem Extrema do IC2
+item.CraftingMonitoringUpgrade=Atualização de Monitoramento de Crafting
+item.OpaqueUpgrade=Upgrade opaco
 
 #Upgrade info
 
+item.upgrade.info.all=Todos
+item.upgrade.info.crafting=Produção
+item.upgrade.info.supplier=Suplemento
+item.upgrade.info.requestblock=Bloco de pedido
+item.upgrade.info.chassi=Armação
 
 # Blocks
+tile.solderingstation=Estação de soldagem
+tile.logisticspowerjunction=Junção Logística de Energia
+tile.logisticssecuritystation=Estação de segurança
+tile.logisticsbcpowerprovider=Provedor de energia MJ
+tile.logisticsic2powerprovider=Provedor de energia UE
+tile.logisticstepowerprovider=Provedor de energia de RF
 
 # Misc
+itemGroup.Logistics_Pipes=Tubo de logística
+misc.holdshift=< Segurar Shift para detalhes >
+misc.extractionmode.Normal=Normal
+misc.extractionmode.LeaveFirst=Deixa 1 pilha
+misc.extractionmode.LeaveLast=Deixa a Ultima Pilha
+misc.extractionmode.LeaveFirstAndLast=Deixa a primeira e última pilha
+misc.extractionmode.Leave1PerStack=Deixa 1 item por pilha
+misc.extractionmode.Leave1PerType=Deixa 1 item por tipo
+misc.selectType=Selecione o tipo
 
 #Misc Chat messages
 
+lp.chat.slotnotfound=Não foi encontrado o slot internamente. Desculpe. Por favor, tente novamente.
+lp.chat.permissiondenied=Permissão negada
+lp.chat.connectedtopipe=Conectado à tubulação
+lp.misc.noenergy=Sem energia
+lp.hud.config.chassie.enabled=Chassi habilitado.
+lp.hud.config.crafting.enabled=Habilitado a Craftar
+lp.hud.config.crafting.disabled=Crafting Desativado
+lp.hud.config.provider.enabled=Provedor habilitado.
+lp.hud.config.provider.disabled=Provedor desabilitado.
+lp.hud.config.satellite.enabled=Satélite Habilitado.
+lp.hud.config.satellite.disabled=Satélite desativado.
 
 # GUI
 
+gui.crafting.Inputs=Entradas
+gui.crafting.Inventory=Inventário
+gui.crafting.Import=Importação
+gui.crafting.Open=Abrir
+gui.crafting.Output=Saída
+gui.crafting.Satellite=Satélite
+gui.crafting.Off=desligado
+gui.crafting.Priority=Prioridade
+gui.crafting.Extra=Extra
+gui.crafting.Include=Incluindo
+gui.crafting.Exclude=Excluido
+
+gui.firewall.Blocked=Bloqueado
+gui.firewall.Allowed=Permitido
+gui.firewall.Firewall=Firewall
+gui.firewall.Filter=filtro
+gui.firewall.Filtereditemsare=Itens filtrados
+gui.firewall.Providing=Fornecendo
+gui.firewall.Crafting=Produção
+gui.firewall.Sorting=Classificação
+
+gui.fluidbasic.Empty=vazio
+
+gui.fluidsuppliermk2.Inventory=Inventário
+gui.fluidsuppliermk2.Fluid=Fluido
+gui.fluidsuppliermk2.Partial=Parcial
+gui.fluidsuppliermk2.Yes=Sim
+gui.fluidsuppliermk2.No=Não
+gui.fluidsuppliermk2.NONE=Nenhum
+gui.fluidsuppliermk2.ONEBUCKET=1 balde
+gui.fluidsuppliermk2.TWOBUCKET=2 baldes
+gui.fluidsuppliermk2.FIVEBUCKET=5 baldes
+
+gui.fluidsupplier.Inventory=Inventário
+gui.fluidsupplier.Partialrequests=Solicitações parcial
+gui.fluidsupplier.Yes=Sim
+gui.fluidsupplier.No=Não
+
+gui.invsyscon.Refresh=Atualização
+gui.invsyscon.Save=Salvar
+gui.invsyscon.InventorySystemConnector=Conector do sistema de inventário
+gui.invsyscon.ConnectionCard=Placa de conexão
+gui.invsyscon.Waitingfor=Esperando por
+gui.invsyscon.Resistance=Resistência
+
+gui.powerjunction.StoredEnergy=Energia armazenada
 
 
+gui.providerpipe.Inventory=Inventário
+gui.providerpipe.Mode=Modo
+gui.providerpipe.Exclude=Excluir
+gui.providerpipe.Include=incluir
+gui.providerpipe.Switch=Mudar
+
+gui.routingstats.Session=Sessão
+gui.routingstats.Lifetime=Tempo de vida
+gui.routingstats.Sent=Enviado
+gui.routingstats.Recieved=Recebido
+gui.routingstats.Relayed=Retransmitido
+gui.routingstats.exit=Pressione <ESC>para sair
+
+gui.satellite.SatelliteID=Satélite ID
+
+gui.securitystation.Open=Abrir
+gui.securitystation.EditTable=Editar tabela
+gui.securitystation.Authorize=Autorizar
+gui.securitystation.Deauthorize=Desautorizar
+gui.securitystation.SecurityStation=Estação de segurança
+gui.securitystation.allowCCAccess=Permitir o acesso de ComputerCraft
+gui.securitystation.excludeIDs=IDs de ComputerCraft excluídos
+gui.securitystation.pipeRemove=Permite remover tubulação automatizada
+gui.securitystation.Player=Jogador
+gui.securitystation.SecurityCards=Cartões de segurança
+gui.securitystation.Inventory=Inventário
+gui.securitystation.popup.ccAccess.Remove=Remover
+gui.securitystation.popup.ccAccess.Add=Adicionar
+gui.securitystation.popup.player.Close=Fechar
+gui.securitystation.popup.player.Player=Jogador
+gui.securitystation.popup.player.ActiveRequesting=Solicitando ativo
+gui.securitystation.popup.player.UpgradePipes=Atualização de tubos
+gui.securitystation.popup.player.CheckNetwork=Verificador de rede
+gui.securitystation.popup.player.RemovePipes=Remover tubos
+
+gui.supplierpipe.TargetInv=Itens para manter abastecido
+gui.supplierpipe.Inventory=Inventário
 
 
+gui.pipecontroller.inventory=Inventário
+gui.pipecontroller.security=Segurança
+gui.pipecontroller.Session=Sessão
+gui.pipecontroller.Lifetime=Tempo de vida
+gui.pipecontroller.Sent=Enviado
+gui.pipecontroller.Recieved=Recebido
 
-
-
-
-
-
-
-
-
-
-
+gui.networkstatistics.gettasks=Adquirir Tarefas
 
 

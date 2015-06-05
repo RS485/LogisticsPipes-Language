@@ -1,0 +1,104 @@
+# Master language file
+
+# Insert %c and the name found in logisticspipes.utils.string.ChatColor to add colors
+# Example '%cYELLOW ' (The space behind will be removed)
+
+# Pipes
+
+item.PipeItemsBasicLogistics=Basis logistiek buis
+item.PipeItemsBasicLogistics.tip1=Passieve bestemming
+item.PipeItemsBasicLogistics.tip2=Stuurt items doorheen het netwerk.
+item.PipeItemsBasicLogistics.tip3=Plaatst specifieke items in kisten.
+item.PipeItemsBasicLogistics.tip4=Kan een standaard route zijn.
+
+item.PipeItemsRequestLogistics=Logistieke buis voor verzoeken
+item.PipeItemsRequestLogistics.tip1=Actieve aanvrager
+item.PipeItemsRequestLogistics.tip2=Laat je toe om manueel items op te vragen
+item.PipeItemsRequestLogistics.tip3=Items kunnen van elke toevoer komen
+item.PipeItemsRequestLogistics.tip4=Plaats een kist op de buis om items op te vangen.
+
+item.PipeItemsRequestLogisticsMk2=Aanvraag logistieke buis Mk2
+item.PipeItemsRequestLogisticsMk2.tip1=Actieve aanvrager
+item.PipeItemsRequestLogisticsMk2.tip2=Sneller dan een Mk1
+item.PipeItemsRequestLogisticsMk2.tip3=Laat je toe om manueel items op te vragen
+item.PipeItemsRequestLogisticsMk2.tip4=Items kunnen afkomstig zijn uit elke bron pijp
+item.PipeItemsRequestLogisticsMk2.tip5=Plaats een kist op de pijp om items op te vangen.
+
+item.PipeItemsProviderLogistics=Bevoorradingsbuis
+item.PipeItemsProviderLogistics.tip1=Origine van item
+item.PipeItemsProviderLogistics.tip2=Hecht zich aan een inventaris
+item.PipeItemsProviderLogistics.tip3=Zend 16 items doorheen het netwerk op aanvraag
+item.PipeItemsProviderLogistics.tip4=Negeert leveranciers op hetzelfde blok.
+
+item.PipeItemsProviderLogisticsMk2=Bevoorradingsbuis Mk2
+item.PipeItemsProviderLogisticsMk2.tip1=Origine van item
+item.PipeItemsProviderLogisticsMk2.tip2=Hecht zich aan een inventaris
+item.PipeItemsProviderLogisticsMk2.tip3=-Stuurt een stapel van items in het netwerk op aanvraag
+item.PipeItemsProviderLogisticsMk2.tip4=Negeert leveranciers op hetzelfde blok.
+
+item.PipeItemsCraftingLogistics=Buis voor Craften
+item.PipeItemsCraftingLogistics.tip1=Actieve aanvrager + bron
+item.PipeItemsCraftingLogistics.tip2=Craft één item per keer.
+item.PipeItemsCraftingLogistics.tip3=Hecht zich aan een automatische crafting tafel.
+item.PipeItemsCraftingLogistics.tip4=Automatisch het item creëeren indien gevraagd.
+item.PipeItemsCraftingLogistics.tip5=Kan een satteliet buis gebruiken om invoer naar ergens anders te versturen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Modules
+
+#TODO: Add shift tooltip information
+
+# Items
+
+# %cRED (DEPRECATED) %cRESET
+# %cRED (DEPRECATED) %cRESET
+
+# Upgrades
+
+
+#Upgrade info
+
+
+# Blocks
+
+# Misc
+
+#Misc Chat messages
+
+
+# GUI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

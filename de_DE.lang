@@ -1,9 +1,11 @@
-# de_DE, Translated by theZorro266 and Vexatos
-
-# Insert %c and the name found in logisticspipes.utils.string.ChatColor to add colors
-# Example '%cYELLOW ' (The space behind will be removed)
+# Copyright (c) 2015  RS485
+#
+# "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
+# License 1.0, or MMPL. Please check the contents of the license located in
+# https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md
 
 # Pipes
+
 item.PipeItemsBasicTransport=Gewöhnliches Transportrohr
 item.PipeItemsBasicTransport.tip1=Typ: Einfaches Transportrohr
 item.PipeItemsBasicTransport.tip2= - Dient dem Transport von Items

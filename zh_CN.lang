@@ -1,10 +1,14 @@
-# Copyright (c) 2015  RS485
-#
-# "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
-# License 1.0, or MMPL. Please check the contents of the license located in
-# https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md
+# Master language file
+
+# Insert %c and the name found in logisticspipes.utils.string.ChatColor to add colors
+# Example '%cYELLOW ' (The space behind will be removed)
 
 # Pipes
+item.PipeItemsBasicTransport=无路由运输管道
+item.PipeItemsBasicTransport.tip1=类型\: 简易运输管道
+item.PipeItemsBasicTransport.tip2=- 用于传输物品
+item.PipeItemsBasicTransport.tip3=- 并不对物品进行路由
+item.PipeItemsBasicTransport.tip4=- 不能在物品栏间互动
 
 item.PipeItemsBasicLogistics=基础物流管道
 item.PipeItemsBasicLogistics.tip1=类型\: 被动收纳
@@ -16,14 +20,14 @@ item.PipeItemsRequestLogistics=请求物流管道
 item.PipeItemsRequestLogistics.tip1=类型\: 主动请求
 item.PipeItemsRequestLogistics.tip2=- 用于玩家从网络中请求物品
 item.PipeItemsRequestLogistics.tip3=- 请求的物品由类型为物品源的管道提供
-item.PipeItemsRequestLogistics.tip4=- 如果管道连接了箱子, 请求到的物品将被存入箱中
+item.PipeItemsRequestLogistics.tip4=- 如果管道连接了箱子，请求到的物品将被存入箱中
 
 item.PipeItemsRequestLogisticsMk2=请求物流管道Mk2
 item.PipeItemsRequestLogisticsMk2.tip1=类型\: 主动请求
 item.PipeItemsRequestLogisticsMk2.tip2=- 比Mk1快
 item.PipeItemsRequestLogisticsMk2.tip3=- 用于玩家从网络中请求物品
 item.PipeItemsRequestLogisticsMk2.tip4=- 请求的物品由类型为物品源的管道提供
-item.PipeItemsRequestLogisticsMk2.tip5=- 如果管道连接了容器, 请求到的物品将被存入其中
+item.PipeItemsRequestLogisticsMk2.tip5=- 如果管道连接了容器，请求到的物品将被存入其中
 
 item.PipeItemsProviderLogistics=供应物流管道
 item.PipeItemsProviderLogistics.tip1=类型\: 物品源
@@ -111,22 +115,28 @@ item.PipeItemsApiaristSink.tip3=- 可基于遗传特性和基因组进行过滤
 item.PipeItemsInvSysConnector=物流网络连接器
 item.PipeItemsInvSysConnector.tip1=类型\: 并网
 item.PipeItemsInvSysConnector.tip2=- 通过外部运输方式
-item.PipeItemsInvSysConnector.tip3=(比如末影箱, 矿车或其他管道)
+item.PipeItemsInvSysConnector.tip3=(比如末影箱、矿车或其他管道)
 item.PipeItemsInvSysConnector.tip4=将两个物流网络连接到一起
+#NOT USED - item.PipeItemsInvSysConnector.tip5=
 
 item.PipeItemsSystemEntranceLogistics=物流系统入口管道
 item.PipeItemsSystemEntranceLogistics.tip1=类型\: 路线规划
 item.PipeItemsSystemEntranceLogistics.tip2=- 将流经此管的物品发往与此管配对的目的管道
 item.PipeItemsSystemEntranceLogistics.tip3=- 入口和目的管道必须拥有配对的频率卡
+#NOT USED - item.PipeItemsSystemEntranceLogistics.tip4=
+#NOT USED - item.PipeItemsSystemEntranceLogistics.tip5=
 
-item.PipeItemsSystemDestinationLogistics=物流系统目的管道
+item.PipeItemsSystemDestinationLogistics=物流系统目标管道
 item.PipeItemsSystemDestinationLogistics.tip1=类型\: 特殊目标
 item.PipeItemsSystemDestinationLogistics.tip2=- 接收由物流系统入口管道发送的物品
 item.PipeItemsSystemDestinationLogistics.tip3=- 入口和目的管道必须拥有配对的频率卡
+#NOT USED - item.PipeItemsSystemDestinationLogistics.tip4=
+#NOT USED - item.PipeItemsSystemDestinationLogistics.tip5=
 
 item.PipeItemsFirewall=物流防火墙管道
 item.PipeItemsFirewall.tip1=类型\: 过滤器
 item.PipeItemsFirewall.tip2=- 只允许特定物品通过
+#NOT USED - item.PipeItemsFirewall.tip3=
 
 item.PipeItemsFluidSupplier=物流流体容器补给管道
 item.PipeItemsFluidSupplier.tip1=用桶或其他流体容器里的流体来填充与管道连接的储液器
@@ -144,6 +154,7 @@ item.PipeBlockRequestTable=物流请求桌
 # Modules
 
 #TODO: Add shift tooltip information
+
 item.ModuleBlank=空白模块
 item.ModuleItemSink=物品收纳模块
 item.ModulePassiveSupplier=被动补给模块
@@ -175,11 +186,20 @@ item.ModuleCrafter=合成模块
 item.ModuleCrafterMK2=合成模块Mk2
 item.ModuleCrafterMK3=合成模块Mk3
 item.ModuleActiveSupplier=主动补给模块
+item.ModuleCreativeTabBasedItemSink=基于创造模式标签的物品收纳模块
 
 # Items
 
+item.structframe=结构管道框架
+item.microservo=微型伺服机
+item.routeprocess=路由逻辑处理器
+item.micropackager=微型打包机
+item.microcapsulator=微型封包器
+item.logicexpander=逻辑扩展电路
+item.lense=聚焦透镜
+item.acceptor=激光接收器介面
 item.pipeController=物流管道控制器
-item.brokenItem=损毁了的物品
+item.brokenItem=已损坏物品
 item.logisticsFluidContainer=物流流体载体
 # %cRED (DEPRECATED) %cRESET
 item.upgradeManagerItem=物流升级管理器
@@ -216,21 +236,34 @@ item.AdvancedSatelliteUpgrade=高级卫星升级
 item.FluidCraftingUpgrade=流体合成升级
 item.CraftingByproductUpgrade=副产物提取升级
 item.PatternUpgrade=放置规则升级
-item.FuzzyCraftingUpgrade=模糊合成升级
+item.FuzzyUpgrade=模糊升级
 item.PowerTransportationUpgrade=能量运输升级
-item.BCPowerSupplierUpgrade=BC能量补给升级
-item.RFPowerSupplierUpgrade=TE能量补给升级
-item.IC2LVPowerSupplierUpgrade=IC2低压能量补给升级
-item.IC2MVPowerSupplierUpgrade=IC2中压能量补给升级
-item.IC2HVPowerSupplierUpgrade=IC2高压能量补给升级
-item.IC2EVPowerSupplierUpgrade=IC2超高压能量补给升级
+item.BCPowerSupplierUpgrade=MJ能量补给升级
+item.RFPowerSupplierUpgrade=RF能量补给升级
+item.IC2LVPowerSupplierUpgrade=EU低压能量补给升级
+item.IC2MVPowerSupplierUpgrade=EU中压能量补给升级
+item.IC2HVPowerSupplierUpgrade=EU高压能量补给升级
+item.IC2EVPowerSupplierUpgrade=EU超高压能量补给升级
 item.CCRemoteControlUpgrade=CC遥控升级
 item.CraftingMonitoringUpgrade=合成监视升级
 item.OpaqueUpgrade=不透明升级
 item.CraftingCleanupUpgrade=合成残余物清理升级
+item.LogicControllerUpgrade=控制器升级
+item.UpgradeModuleUpgrade=升级模块升级
 
 #Upgrade info
 
+item.upgrade.info.both1=可安装于 %cYELLOW {0} %cRESET %cGRAY 种管道上
+item.upgrade.info.both2=以及 %cYELLOW {0} %cRESET %cGRAY 种模块上
+item.upgrade.info.pipe=可安装于 %cYELLOW {0} %cRESET %cGRAY 种管道上
+item.upgrade.info.module=可安装于 %cYELLOW {0} %cRESET %cGRAY 种模块上
+item.upgrade.info.all=全部
+item.upgrade.info.crafting=合成
+item.upgrade.info.itemsink=物品收纳器
+item.upgrade.info.supplier=补给器
+item.upgrade.info.requestblock=请求方块
+item.upgrade.info.chassi=底盘
+item.upgrade.info.basic=基础
 
 # Blocks
 tile.solderingstation=物流焊接台
@@ -238,9 +271,10 @@ tile.logisticspowerjunction=物流能量中枢
 tile.logisticssecuritystation=物流安全站
 tile.logisticscraftingtable=物流合成桌
 tile.logisticsfuzzycraftingtable=物流模糊合成桌
-tile.logisticsbcpowerprovider=物流BC能量供应器
-tile.logisticsic2powerprovider=物流IC2能量供应器
-tile.logisticstepowerprovider=物流TE能量供应器
+tile.logisticsbcpowerprovider=物流MJ能量供应器
+tile.logisticsic2powerprovider=物流EU能量供应器
+tile.logisticstepowerprovider=物流RF能量供应器
+tile.logisticsstatisticstable=物流统计桌
 
 # Misc
 itemGroup.Logistics_Pipes=物流管道
@@ -251,11 +285,37 @@ misc.extractionmode.LeaveLast=留下最后一组物品
 misc.extractionmode.LeaveFirstAndLast=留下第一组和最后一组物品
 misc.extractionmode.Leave1PerStack=每组物品留一个
 misc.extractionmode.Leave1PerType=每种物品留一个
+misc.selectType=选择类型
+misc.selectOreDict=选择矿辞类型
 
 #Misc Chat messages
 
+lp.chat.slotnotfound=抱歉，无法找到目标格子。请重试。
+lp.chat.permissiondenied=请求被拒绝
+lp.chat.connectedtopipe=连接到管道
+lp.misc.noenergy=没有能量
+lp.hud.config.chassie.enabled=启用底盘。
+lp.hud.config.chassie.disabled=禁用底盘。
+lp.hud.config.crafting.enabled=启用合成。
+lp.hud.config.crafting.disabled=禁用合成。
+lp.hud.config.invsyscon.enabled=启用物流网络连接器。
+lp.hud.config.invsyscon.disabled=禁用物流网络连接器。
+lp.hud.config.powerjunction.enabled=启用能量中枢。
+lp.hud.config.powerjunction.disabled=禁用能量中枢。
+lp.hud.config.provider.enabled=启用供应器。
+lp.hud.config.provider.disabled=禁用供应器。
+lp.hud.config.satellite.enabled=启用卫星。
+lp.hud.config.satellite.disabled=禁用卫星。
 
 # GUI
+
+gui.itemsink.Yes=是
+gui.itemsink.No=否
+gui.itemsink.Inventory=物品栏
+gui.itemsink.Defaultroute=默认路径
+gui.itemsink.IgnoreData=忽略附加值
+gui.itemsink.IgnoreNBT=忽略NBT
+gui.itemsink.import=导入
 
 gui.crafting.Inputs=原料
 gui.crafting.Inventory=物品栏
@@ -287,9 +347,15 @@ gui.fluidbasic.Empty=空
 
 gui.fluidsuppliermk2.Inventory=物品栏
 gui.fluidsuppliermk2.Fluid=流体
+gui.fluidsuppliermk2.Partial=部分
+gui.fluidsuppliermk2.minMode=最小模式
 gui.fluidsuppliermk2.Yes=是
 gui.fluidsuppliermk2.No=否
 gui.fluidsuppliermk2.TargetInv=要补给的流体
+gui.fluidsuppliermk2.NONE=None
+gui.fluidsuppliermk2.ONEBUCKET=1桶
+gui.fluidsuppliermk2.TWOBUCKET=2桶
+gui.fluidsuppliermk2.FIVEBUCKET=5桶
 
 gui.fluidsupplier.TargetInv=要补给的流体
 gui.fluidsupplier.Inventory=物品栏
@@ -307,9 +373,9 @@ gui.invsyscon.Resistance=开销值
 gui.powerjunction.LogisticsPowerJunction=物流能量中枢
 gui.powerjunction.StoredEnergy=存储的能量
 
-gui.powerprovider.LogisticsMJPowerProvider=物流BC能量供应器
-gui.powerprovider.LogisticsEUPowerProvider=物流IC2能量供应器
-gui.powerprovider.LogisticsRFPowerProvider=物流TE能量供应器
+gui.powerprovider.LogisticsMJPowerProvider=物流MJ能量供应器
+gui.powerprovider.LogisticsEUPowerProvider=物流EU能量供应器
+gui.powerprovider.LogisticsRFPowerProvider=物流RF能量供应器
 gui.powerprovider.StoredEnergy=存储的能量
 
 gui.providerpipe.TargetInv=要供应的物品(留空供应所有物品)
@@ -370,5 +436,18 @@ gui.pipecontroller.Recieved=已收到
 gui.pipecontroller.Relayed=已转发
 gui.pipecontroller.RoutingTableSize=路由表大小
 
+gui.networkstatistics.amount=追踪数量
+gui.networkstatistics.crafting=查看当前活跃的合成任务
+gui.networkstatistics.gettasks=已获得任务
+gui.networkstatistics.add.alreadytracked=该物品已经开始追踪
 
+gui.settings.pipenewrenderer=使用新渲染
+gui.settings.pipefallbackrenderer=使用备用渲染
+gui.settings.piperenderdistance=新渲染最大渲染距离
+gui.settings.pipecontentrenderdistance=管道内容物最大渲染距离
 
+# Copyright (c) 2015-  RS485
+#
+# "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
+# License 1.0, or MMPL. Please check the contents of the license located in
+# https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md

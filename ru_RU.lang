@@ -12,7 +12,7 @@ item.PipeItemsBasicTransport.tip3= - Не направляет предметы
 item.PipeItemsBasicTransport.tip4= - Не может взаимодействовать с инвентарями
 
 item.PipeItemsBasicLogistics=Основная логистическая труба
-item.PipeItemsBasicLogistics.tip1=Тип: Passive push destination
+item.PipeItemsBasicLogistics.tip1=Тип: Пассивный импульс адресату
 item.PipeItemsBasicLogistics.tip2= - "Вращает" предметы вокруг сети.
 item.PipeItemsBasicLogistics.tip3= - Перемещает конкретные типы предметов в сундуки.
 item.PipeItemsBasicLogistics.tip4= - Может быть направлением по умолчанию.
@@ -64,7 +64,7 @@ item.PipeItemsCraftingLogisticsMk3.tip4= - Автоматически созда
 item.PipeItemsCraftingLogisticsMk3.tip5= - Может использовать вспомогательную логическую трубу, чтобы отправлять предметы куда-нибудь.
 
 item.PipeItemsSatelliteLogistics=Вспомогательная логистическая труба
-item.PipeItemsSatelliteLogistics.tip1=Тип: Active request destination
+item.PipeItemsSatelliteLogistics.tip1=Тип: Активный запрос назначения
 item.PipeItemsSatelliteLogistics.tip2= - Труба создания может отправлять дополнительные предметы сюда
 
 item.PipeItemsSupplierLogistics=Логистическая труба снабжения
@@ -162,7 +162,7 @@ item.ModulePassiveSupplier=Пассивный модуль снабжения
 item.ModuleExtractor=Модуль извлечения
 item.ModulePolymorphicItemSink=Полиморфный ItemSink модуль
 item.ModuleQuickSort=Модуль быстрой сортировки
-item.ModuleTerminus=Terminus module
+item.ModuleTerminus=Конечный модуль
 item.ModuleAdvancedExtractor=Продвинутый модуль извлечения
 item.ModuleExtractorMk2=Модуль извлечения MK2
 item.ModuleAdvancedExtractorMK2=Продвинутый модуль извлечения MK2
@@ -175,30 +175,30 @@ item.ModuleElectricBuffer=Модуль электрического буфера
 item.ModuleApiaristAnalyser=Модуль-анализатор пчёл
 item.ModuleApiaristSink=BeeSink модуль
 item.ModuleApiaristRefiller=Модуль-заправщик пасеки
-item.ModuleApiaristTerminus=Drone Terminus module
-item.ModuleModBasedItemSink=Mod Based ItemSink module
-item.ModuleOreDictItemSink=OreDict ItemSink module
-item.ModuleThaumicAspectSink=Thaumic AspectSink module
-item.ModuleEnchantmentSink=Enchantment Sink module
-item.ModuleEnchantmentSinkMK2=Enchantment Sink module MK2
-item.ModuleCCBasedItemSink=CC Based ItemSink module
-item.ModuleCCBasedQuickSort=CC Based QuickSort module
+item.ModuleApiaristTerminus=Модуль конечного дрона
+item.ModuleModBasedItemSink=Модовый ItemSink модуль
+item.ModuleOreDictItemSink=OreDict ItemSink модуль
+item.ModuleThaumicAspectSink=Thaumic AspectSink модуль
+item.ModuleEnchantmentSink= Модуль Sink-зачарования
+item.ModuleEnchantmentSinkMK2=Модуль Sink-зачарования MK2
+item.ModuleCCBasedItemSink=CC основанный ItemSink модуль
+item.ModuleCCBasedQuickSort=CC Based QuickSort модуль
 item.ModuleCrafter=Модуль создания
 item.ModuleCrafterMK2=Модуль создания MK2
 item.ModuleCrafterMK3=Модуль создания MK3
 item.ModuleActiveSupplier=Активный модуль снабжения
-item.ModuleCreativeTabBasedItemSink=Creative Tab Based ItemSink module
+item.ModuleCreativeTabBasedItemSink=Основанный на творческих вкладках ItemSink модуль
 
 # Items
 
-item.structframe=Structural Pipe Frame
-item.microservo=Micro Servo
-item.routeprocess=Routing Logic Processor
-item.micropackager=Micro Packager
-item.microcapsulator=Micro Capsulator
-item.logicexpander=Logic Expansion Circuit
-item.lense=Focus Lense
-item.acceptor=Laser Acceptor Interface
+item.structframe=Структурная рамка трубы
+item.microservo=Микромотор
+item.routeprocess=Маршрутизированый логистический процессор
+item.micropackager=Микро-упаковщик
+item.microcapsulator=Микро-капсулятор
+item.logicexpander=Улучшенная логическая схема
+item.lense=Сфокусированная линза
+item.acceptor=Интерфейс лазерного приёмщика
 item.pipeController=Контроллер логистических труб
 item.brokenItem=Логистический сломанный предмет
 item.logisticsFluidContainer=Логистический жидкостный контейнер
@@ -206,14 +206,14 @@ item.logisticsFluidContainer=Логистический жидкостный к�
 item.upgradeManagerItem=Менеджер улучшений
 item.HUDbow=Логистический интерфейс лука
 item.HUDglass=Логистический интерфейс стекла
-item.HUDnosebridge=Logistics HUD Nose Bridge
+item.HUDnosebridge=Переносица логического интерфейса
 item.NanoHopper=Нано-воронка
 item.logisticsItemCard=Логистическая предметная карта
 item.itemDisk=Логистический диск
 # %cRED (DEPRECATED) %cRESET
 item.networkMonitorItem=Сетевой монитор
-item.ItemPipeSignCreator.0=Crafting Sign Creator
-item.ItemPipeSignCreator.1=Item Amount Sign Creator
+item.ItemPipeSignCreator.0=Создатель крафтовой таблички
+item.ItemPipeSignCreator.1=Создатель таблички с количеством предметов
 item.logisticsHUDGlasses=Логистический интерфейс очков
 item.remoteOrdererItem=Удалённый запросчик
 
@@ -254,17 +254,17 @@ item.UpgradeModuleUpgrade=Улучшение «Модуль улучшения»
 
 #Upgrade info
 
-item.upgrade.info.both1=Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes
-item.upgrade.info.both2=and %cYELLOW {0} %cRESET %cGRAY modules
-item.upgrade.info.pipe=Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes
-item.upgrade.info.module=Can be applied to %cYELLOW {0} %cRESET %cGRAY modules
+item.upgrade.info.both1=Может присоединятся к  %cYELLOW {0} %cRESET %cGRAY трубе
+item.upgrade.info.both2=и %cYELLOW {0} %cRESET %cGRAY модулям
+item.upgrade.info.pipe=Может присоединятся к  %cYELLOW {0} %cRESET %cGRAY трубе
+item.upgrade.info.module=Может присоединятся к %cYELLOW {0} %cRESET %cGRAY модулям
 item.upgrade.info.all=Все
 item.upgrade.info.crafting=Создание
-item.upgrade.info.itemsink=Item Sink
-item.upgrade.info.supplier=Supplier
-item.upgrade.info.requestblock=Request Block
+item.upgrade.info.itemsink=Предметная воронка
+item.upgrade.info.supplier=Поставщик
+item.upgrade.info.requestblock=Запрос блока
 item.upgrade.info.chassi=Шасси
-item.upgrade.info.basic=Basic
+item.upgrade.info.basic=Основное
 
 # Blocks
 tile.solderingstation=Паяльная станция
@@ -287,7 +287,7 @@ misc.extractionmode.LeaveFirstAndLast=Оставлять первый и пос�
 misc.extractionmode.Leave1PerStack=Оставлять 1 предмет за стак
 misc.extractionmode.Leave1PerType=Оставлять 1 предмет за тип
 misc.selectType=Выбрать тип
-misc.selectOreDict=Выбрать OreDict тип
+misc.selectOreDict=Выбрать тип руд
 
 #Misc Chat messages
 
@@ -299,30 +299,38 @@ lp.hud.config.chassie.enabled=Шасси включены.
 lp.hud.config.chassie.disabled=Шасси выключены.
 lp.hud.config.crafting.enabled=Создание включено.
 lp.hud.config.crafting.disabled=Создание выключено.
-lp.hud.config.invsyscon.enabled=Enabled InvSysCon.
-lp.hud.config.invsyscon.disabled=Disabled InvSysCon.
+lp.hud.config.invsyscon.enabled=Включить InvSysCon.
+lp.hud.config.invsyscon.disabled=Отключить InvSysCon.
 lp.hud.config.powerjunction.enabled=Энергетическое хранилище включено.
 lp.hud.config.powerjunction.disabled=Энергетическое хранилище выключено.
 lp.hud.config.provider.enabled=Поставщик включен.
 lp.hud.config.provider.disabled=Поставщик отключен.
-lp.hud.config.satellite.enabled=Enabled Satellite.
-lp.hud.config.satellite.disabled=Disabled Satellite.
+lp.hud.config.satellite.enabled=Вспомогательная подключена.
+lp.hud.config.satellite.disabled=Вспомогательная отключена.
 
 # GUI
 
-gui.crafting.Inputs=Inputs
+gui.itemsink.Yes=Да
+gui.itemsink.No=Нет
+gui.itemsink.Inventory=Инвентарь
+gui.itemsink.Defaultroute=Стандартный маршрут
+gui.itemsink.IgnoreData=Игнорировать данные
+gui.itemsink.IgnoreNBT=Игнорировать NBT
+gui.itemsink.import=Импорт
+
+gui.crafting.Inputs=Входные
 gui.crafting.Inventory=Инвентарь
 gui.crafting.Import=Импортировать
 gui.crafting.Open=Открыть
-gui.crafting.Output=Output
-gui.crafting.Satellite=Satellite
+gui.crafting.Output=Вывод
+gui.crafting.Satellite=Вспомогательная
 gui.crafting.Off=Откл.
 gui.crafting.Priority=Приоритет
 gui.crafting.Extra=Extra
-gui.crafting.OreDict=OreDict
-gui.crafting.IgnDamage=IgnDamage
-gui.crafting.IgnNBT=IgnNBT
-gui.crafting.OrePrefix=OrePrefix
+gui.crafting.OreDict=Список руд
+gui.crafting.IgnDamage=Игнорировать повреждения
+gui.crafting.IgnNBT=Игнорировать NBT
+gui.crafting.OrePrefix=Префикс руды
 gui.crafting.Include=Добавлять
 gui.crafting.Exclude=Исключать
 
@@ -334,21 +342,23 @@ gui.firewall.Filtereditemsare=Предметы отфильтрованы как
 gui.firewall.Providing=Предоставление
 gui.firewall.Crafting=Создание
 gui.firewall.Sorting=Сортировка
-gui.firewall.Powerflow=Powerflow
+gui.firewall.Powerflow=Мощность потока
 
 gui.fluidbasic.Empty=Пусто
 
 gui.fluidsuppliermk2.Inventory=Инвентарь
 gui.fluidsuppliermk2.Fluid=Жидкость
 gui.fluidsuppliermk2.Partial=Частично
+gui.fluidsuppliermk2.minMode=Мин. режим
 gui.fluidsuppliermk2.Yes=Да
 gui.fluidsuppliermk2.No=Нет
-gui.fluidsuppliermk2.TargetInv=Fluid to keep stocked
+gui.fluidsuppliermk2.TargetInv=Жидкость в наличии
+gui.fluidsuppliermk2.NONE=Нет
 gui.fluidsuppliermk2.ONEBUCKET=1 ведро
 gui.fluidsuppliermk2.TWOBUCKET=2 ведра
 gui.fluidsuppliermk2.FIVEBUCKET=5 ведер
 
-gui.fluidsupplier.TargetInv=Fluids to keep stocked
+gui.fluidsupplier.TargetInv=Укомплектовывать жидкости
 gui.fluidsupplier.Inventory=Инвентарь
 gui.fluidsupplier.Partialrequests=Частичные запросы
 gui.fluidsupplier.Yes=Да
@@ -369,7 +379,7 @@ gui.powerprovider.LogisticsEUPowerProvider=Логистический прова
 gui.powerprovider.LogisticsRFPowerProvider=Логистический провайдер РФ-энергии
 gui.powerprovider.StoredEnergy=Накоплено энергии
 
-gui.providerpipe.TargetInv=Items to provide (or empty for all)
+gui.providerpipe.TargetInv=Предметы для снабжения (или пусто для всех)
 gui.providerpipe.Inventory=Инвентарь
 gui.providerpipe.Mode=Режим
 gui.providerpipe.Exclude=Исключать
@@ -377,11 +387,11 @@ gui.providerpipe.Include=Включать
 gui.providerpipe.Switch=Переключить
 
 gui.routingstats.Session=Сессия
-gui.routingstats.Lifetime=Lifetime
-gui.routingstats.Sent=Sent
-gui.routingstats.Recieved=Recieved
-gui.routingstats.Relayed=Relayed
-gui.routingstats.RoutingTableSize=RoutingTableSize
+gui.routingstats.Lifetime=Время жизни
+gui.routingstats.Sent=Отправлено
+gui.routingstats.Recieved=Принято
+gui.routingstats.Relayed=Ретранслировано
+gui.routingstats.RoutingTableSize=Размер таблицы
 gui.routingstats.exit=Нажмите <ESC>, чтобы выйти
 
 gui.satellite.SatelliteID=Satellite ID
@@ -402,13 +412,13 @@ gui.securitystation.popup.ccAccess.Add=Добавить
 gui.securitystation.popup.player.Close=Закрыть
 gui.securitystation.popup.player.Player=Игрок
 gui.securitystation.popup.player.ConfigureSettings=Настройки
-gui.securitystation.popup.player.ActiveRequesting=Active Requesting
+gui.securitystation.popup.player.ActiveRequesting=Запрос активации
 gui.securitystation.popup.player.UpgradePipes=Улучшить трубы
 gui.securitystation.popup.player.CheckNetwork=Проверить сеть
 gui.securitystation.popup.player.RemovePipes=Удалить трубы
 
-gui.supplierpipe.TargetInv=Items to keep stocked
-gui.supplierpipe.TargetInvPattern=Items to keep in the specified slots
+gui.supplierpipe.TargetInv=Держать предметы укомплектованными
+gui.supplierpipe.TargetInvPattern=Предметы, которые должны храниться в указанных слотах
 gui.supplierpipe.Inventory=Инвентарь
 gui.supplierpipe.RequestMode=Режим запроса
 
@@ -418,10 +428,20 @@ gui.upgrademanager.SneakyUpgrades=Скрытые улучшения
 
 gui.pipecontroller.upgrade=Улучшения
 gui.pipecontroller.inventory=Инвентарь
+gui.pipecontroller.sneakyUpgrades=Скрытые улучшения
 gui.pipecontroller.Session=Сессия
 gui.pipecontroller.Lifetime=За все время
 gui.pipecontroller.Sent=Отправлено
 gui.pipecontroller.Recieved=Получено
 gui.pipecontroller.Relayed=Передано
+gui.pipecontroller.RoutingTableSize=Размер таблицы маршрутизации
 
+gui.networkstatistics.amount=Количество дорожек
+gui.networkstatistics.crafting=Посмотреть активные задачи крафта
+gui.networkstatistics.gettasks=Приобрести задачи
 gui.networkstatistics.add.alreadytracked=Этот тип предметов уже отслеживается
+
+gui.settings.pipenewrenderer=Использование нового визуализатора
+gui.settings.pipefallbackrenderer=Использование запасного варианта визуализатора
+gui.settings.piperenderdistance=Максимальная дистанция для нового визуализатора
+gui.settings.pipecontentrenderdistance=Максимальная дистанция для содержимого трубы

@@ -6,26 +6,16 @@
 
 # Pipes
 
-item.PipeItemsBasicLogistics=
-
-item.PipeItemsRequestLogistics=
-
-item.PipeItemsRequestLogisticsMk2=
-
-item.PipeItemsProviderLogistics=
 
 
-item.PipeItemsCraftingLogistics=
 
-item.PipeItemsCraftingLogisticsMk2=
 
-item.PipeItemsCraftingLogisticsMk3=
 
-item.PipeItemsSatelliteLogistics=
 
-item.PipeItemsSupplierLogistics=
 
-item.PipeItemsBuilderSupplierLogistics=
+
+
+
 
 item.PipeLogisticsChassiMk1=Logistikchassie Mk1
 
@@ -44,7 +34,6 @@ item.PipeLogisticsChassiMk5=Logistikchassie Mk5
 
 
 
-item.PipeItemsFluidSupplier=
 
 # Modules
 

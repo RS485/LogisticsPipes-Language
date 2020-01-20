@@ -1,3 +1,9 @@
+# Copyright (c) 2015  RS485 & _InterPlay_
+#
+# "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
+# License 1.0, or MMPL. Please check the contents of the license located in
+# https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md
+
 # Arquivo de linguagem mestre
 
 # Insira %c e um nome encontrado em logisticspipes.utils.string.ChatColor para adicionar cores
@@ -448,4 +454,4 @@ gui.networkstatistics.add.alreadytracked=Este tipo de item já está sendo acomp
 gui.settings.pipenewrenderer=Usar nova renderização
 gui.settings.pipefallbackrenderer=Usar renderização com fallback
 gui.settings.piperenderdistance=Distância máx. para nova renderização
-gui.settings.pipecontentrenderdistance=Distância máx. para conteúdo dos tubos
+gui.settings.pipecontentrenderdistance=Distância máx. para conteúdo dos tufos

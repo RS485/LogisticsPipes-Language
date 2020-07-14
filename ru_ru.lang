@@ -21,7 +21,7 @@ item.logisticspipes.pipe_basic.name=Труба: ItemSink. Логистическ
 item.logisticspipes.pipe_basic.tip1=Тип: Пассивный трассировщик, задающий направления
 item.logisticspipes.pipe_basic.tip2= - Циркулирует предметы в пределах подключения системы
 item.logisticspipes.pipe_basic.tip3= - Может складывать заданные типы предметов в сундуки
-item.logisticspipes.pipe_basic.tip4= - %cYELLOW Маршрут: %cRESET Предметы, не имеющие заданного назначения в системе, будут складываться в подключённое к трубе/шасси хранилище
+item.logisticspipes.pipe_basic.tip4= - %cYELLOW Склад по-ум: %cRESET Предметы, не имеющие заданного назначения в системе, будут складываться в подключённое к трубе/шасси хранилище
 
 item.logisticspipes.pipe_request.name=Труба: Заказчик. Логистическая
 item.logisticspipes.pipe_request.tip1=Тип: Активный запросчик
@@ -42,13 +42,13 @@ item.logisticspipes.pipe_provider.name=Труба: Поставщик. Логи�
 item.logisticspipes.pipe_provider.tip1=Тип: Поставщик предметов
 item.logisticspipes.pipe_provider.tip2= - Присоединяется к хранилищу
 item.logisticspipes.pipe_provider.tip3= - По запросу, отсылает порциями по 16 предметов в логистическую систему
-item.logisticspipes.pipe_provider.tip4= - Игнорирует трубы обеспечения, находящиеся на этом же блоке
+item.logisticspipes.pipe_provider.tip4= - Игнорирует трубы снабжателей, находящиеся на этом же блоке
 
 item.logisticspipes.pipe_provider_mk2.name=Труба: Поставщик Мод.2. Логистическая
 item.logisticspipes.pipe_provider_mk2.tip1=Тип: Поставщик предметов
 item.logisticspipes.pipe_provider_mk2.tip2= - Присоединяется к хранилищу
 item.logisticspipes.pipe_provider_mk2.tip3= - По запросу, отсылает порциями по 64 предмета в логистическую систему
-item.logisticspipes.pipe_provider_mk2.tip4= - Игнорирует трубы обеспечения, находящиеся на этом же блоке
+item.logisticspipes.pipe_provider_mk2.tip4= - Игнорирует трубы снабжателей, находящиеся на этом же блоке
 
 item.logisticspipes.pipe_crafting.name=Труба: Создатель. Логистическая
 item.logisticspipes.pipe_crafting.tip1=Тип: Активный запросчик, а после преобразования - поставщик
@@ -75,14 +75,14 @@ item.logisticspipes.pipe_satellite.name=Труба: Вспомогательна
 item.logisticspipes.pipe_satellite.tip1=Тип: Активный запросчик и корректировщик маршрута
 item.logisticspipes.pipe_satellite.tip2= - %cITALIC Труба: Создатель %cRESET может перенаправлять предметы через данную трубу к другому входу
 
-item.logisticspipes.pipe_supplier.name=Труба: Обеспечения. Логистическая
+item.logisticspipes.pipe_supplier.name=Труба: Снабжатель. Логистическая
 item.logisticspipes.pipe_supplier.tip1=Тип: Активный запросчик
 item.logisticspipes.pipe_supplier.tip2= - Автоматически снабжает хранилище или механизм
 item.logisticspipes.pipe_supplier.tip3= - Предметы могут запрашиваться от любого логистического поставщика,
 item.logisticspipes.pipe_supplier.tip4=   или приходить в результате преобразований
 item.logisticspipes.pipe_supplier.tip5= - Игнорирует трубы-поставщики, находящиеся на этом же блоке
 
-item.logisticspipes.pipe_builder_supplier.name=Труба: Обеспечения BuildCraft Строителя. Логистическая
+item.logisticspipes.pipe_builder_supplier.name=Труба: Снабжатель BuildCraft Строителя. Логистическая
 item.logisticspipes.pipe_builder_supplier.tip1=Тип: Активный запросчик
 item.logisticspipes.pipe_builder_supplier.tip2= - Автоматически заполняет BuildCraft/Строитель всеми необходимыми материалами
 
@@ -113,7 +113,7 @@ item.logisticspipes.pipe_remote_orderer.tip3= - Предметы могут за
 item.logisticspipes.pipe_remote_orderer.tip4=   или приходить в результате преобразований
 item.logisticspipes.pipe_remote_orderer.tip5= - Для привязки этой трубы к дистанционному пульту - кликните *ПКМ* по ней этим пультом
 
-item.logisticspipes.pipe_inventory_system_connector.name=Межсистемный буферный соединитель: Логистический
+item.logisticspipes.pipe_inventory_system_connector.name=Межсистемный буферный соединитель. Логистический
 item.logisticspipes.pipe_inventory_system_connector.tip1=Тип: Переправа
 item.logisticspipes.pipe_inventory_system_connector.tip2= - Соединяет две логистические системы вместе
 item.logisticspipes.pipe_inventory_system_connector.tip3=   через общий буфер (хранилище)
@@ -142,10 +142,10 @@ item.logisticspipes.pipe_firewall.tip2= - Позволяет подключат�
 item.logisticspipes.pipe_firewall.tip3=   при этом проходить только конкретным предметам
 	*
 # todo fix
-item.logisticspipes.pipe_fluid_supplier.name=Снабжатель жидкостными контейнерами: Логистический
-item.logisticspipes.pipe_fluid_supplier.tip1=Использует ёмкости с жидкостью для наполнения подключённой цистерны
+item.logisticspipes.pipe_fluid_supplier.name=Снабжатель жидкостями. Логистический
+item.logisticspipes.pipe_fluid_supplier.tip1=Использует контейнеры с жидкостью для наполнения подключённой цистерны
 # todo fix
-item.logisticspipes.pipe_fluid_supplier_mk2.name=Снабжатель жидкостями Мод.2: Логистический
+item.logisticspipes.pipe_fluid_supplier_mk2.name=Снабжатель жидкостями Мод.2. Логистический
 item.logisticspipes.pipe_fluid_supplier_mk2.tip1=Запрашивает жидкости из жидкостной трубы-поставщика
 
 item.logisticspipes.pipe_fluid_connector.name=Труба: Жидкостная. Соединитель. Логистическая
@@ -169,7 +169,7 @@ item.logisticspipes.pipe_hs_gain.name=Высокоскоростная восх�
 
 item.logisticspipes.module_blank.name=Пустой модуль
 item.logisticspipes.module_item_sink.name=Модуль: ItemSink
-item.logisticspipes.module_passive_supplier.name=Модуль: Обеспечения. Пассивный
+item.logisticspipes.module_passive_supplier.name=Модуль: Снабжатель. Пассивный
 item.logisticspipes.module_extractor.name=Модуль: Извлекатель
 item.logisticspipes.module_item_sink_polymorphic.name=Модуль: ItemSink. Полиморфный
 item.logisticspipes.module_quick_sort.name=Модуль: Быстрая сортировка
@@ -198,7 +198,7 @@ item.logisticspipes.module_quick_sort_cc.name=Модуль: Быстрая со�
 item.logisticspipes.module_crafter.name=Модуль: Создатель
 item.logisticspipes.module_crafter_mk2.name=Модуль: Создатель Мод.2
 item.logisticspipes.module_crafter_mk3.name=Модуль: Создатель Мод.3
-item.logisticspipes.module_active_supplier.name=Модуль: Обеспечения (Активный)
+item.logisticspipes.module_active_supplier.name=Модуль: Снабжатель (Активный)
 #
 # maybe next text are wrong
 item.logisticspipes.module_item_sink_creativetab.name=Модуль: ItemSink. Фильтр по вкладкам модов (вкладки творческого режима)
@@ -307,7 +307,7 @@ item.upgrade.info.provider=ПОСТАВЩИК
 item.upgrade.info.itemsink=ItemSink
 item.upgrade.info.extractor=ИЗВЛЕКАТЕЛЬ
 item.upgrade.info.aextractor=ИЗВЛЕКАТЕЛЬ (ПРОДВИНУТЫЙ)
-item.upgrade.info.supplier=ОБЕСПЕЧИВАТЕЛЬ
+item.upgrade.info.supplier=СНАБЖАТЕЛЬ
 item.upgrade.info.requestblock=БЛОК ЗАПРОСОВ
 item.upgrade.info.chassis=ШАССИ
 item.upgrade.info.basic=БАЗОВАЯ
@@ -325,7 +325,7 @@ tile.logisticspipes.power_provider_mj.name=Поставщик MJ-энергии.
 tile.logisticspipes.power_provider_eu.name=Поставщик EU-энергии. Логистический
 tile.logisticspipes.power_provider_rf.name=Поставщик RF-энергии. Логистический
 tile.logisticspipes.statistics_table.name=Сборщик статистики. Логистический
-tile.logisticspipes.program_compiler.name=Станция - Компилятор: Логистическая
+tile.logisticspipes.program_compiler.name=Станция - Компилятор. Логистическая
 
 
 # Разное
@@ -370,7 +370,7 @@ lp.hud.config.satellite.disabled=ВЫКЛЮЧЕНО: Вспомогатель
 gui.itemsink.Yes=Вкл
 gui.itemsink.No=ВЫКЛ
 gui.itemsink.Inventory=Инвентарь
-gui.itemsink.Defaultroute=Маршрут
+gui.itemsink.Defaultroute=Склад по-ум
 gui.itemsink.IgnoreData=Игнорировать: Data
 gui.itemsink.IgnoreNBT=Игнорировать: NBT
 gui.itemsink.import=Импорт

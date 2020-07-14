@@ -1,160 +1,163 @@
 # Copyright (c) 2015  RS485
-# Copyright (c) 2020  EnDelta
+# Copyright (c) 2020  EnDelta & extradjx64
 
 # "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
 # License 1.0, or MMPL. Please check the contents of the license located in
 # https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md
 
 # ИНФОРМАЦИЯ ДЛЯ РЕДАКТОРОВ:
-# Вставьте оператор %c (c - алглийская) и имя руководствуясь паттернами в logisticspipes.utils.string.ChatColor для добавления цветов
+# Вставьте оператор %c (c - алглийская), название и пробел в конце, руководствуясь шаблоном logisticspipes.utils.string.ChatColor для добавления цветов
 # Например: '%cYELLOW ' (Пробел, стоящий в конце, будет удалён)
 
 # Трубы
 
-item.logisticspipes.pipe_transport_basic.name=Нетрассировачная транспортная труба
-item.logisticspipes.pipe_transport_basic.tip1=Тип: Простая транспортная труба
+item.logisticspipes.pipe_transport_basic.name=Труба: Базовая
+item.logisticspipes.pipe_transport_basic.tip1=Тип: Нетрассировачная транспортная труба
 item.logisticspipes.pipe_transport_basic.tip2= - Служит для перемещения предметов
 item.logisticspipes.pipe_transport_basic.tip3= - Не умеет направлять предметы в нужную сторону
 item.logisticspipes.pipe_transport_basic.tip4= - Не подключается к инвентарям, ввиду отсутствия логики
 
-item.logisticspipes.pipe_basic.name=Базовая труба: Логистическая
+item.logisticspipes.pipe_basic.name=Труба: ItemSink. Логистическая
 item.logisticspipes.pipe_basic.tip1=Тип: Пассивный трассировщик, задающий направления
-item.logisticspipes.pipe_basic.tip2= - Циркулирует предметы внутри системы
+item.logisticspipes.pipe_basic.tip2= - Циркулирует предметы в пределах подключения системы
 item.logisticspipes.pipe_basic.tip3= - Может складывать заданные типы предметов в сундуки
-item.logisticspipes.pipe_basic.tip4=   СКЛАДЫВАТЬ СЮДА: Предметы, не имеющие какого-либо назначения в системе, будут складываться в подключённое хранилище
-item.logisticspipes.pipe_basic.tip5=%cYELLOW Функцию данной трубы выполняет модули - ItemSink %cRESET 
+item.logisticspipes.pipe_basic.tip4= - %cYELLOW Маршрут: %cRESET Предметы, не имеющие заданного назначения в системе, будут складываться в подключённое к трубе/шасси хранилище
 
-item.logisticspipes.pipe_request.name=Труба-запросчик: Логистическая
+item.logisticspipes.pipe_request.name=Труба: Заказчик. Логистическая
 item.logisticspipes.pipe_request.tip1=Тип: Активный запросчик
-item.logisticspipes.pipe_request.tip2= - Позволяет вручную запрашивать предметы
-item.logisticspipes.pipe_request.tip3= - Предметы могут приходить от любого Logistics поставщика
-item.logisticspipes.pipe_request.tip4=   А также в результате комплекса преобразований
+item.logisticspipes.pipe_request.tip2= - Позволяет вручную заказывать предметы
+item.logisticspipes.pipe_request.tip3= - Предметы могут запрашиваться от любого логистического поставщика,
+item.logisticspipes.pipe_request.tip4=   или приходить в результате преобразований
 item.logisticspipes.pipe_request.tip5= - Выбрасывает предметы, но может перехватывать и складывать их в подключённое хранилище
 
-item.logisticspipes.pipe_request_mk2.name=Труба-запросчик Мод.2: Логистическая
+item.logisticspipes.pipe_request_mk2.name=Труба: Заказчик Мод.2. Логистическая
 item.logisticspipes.pipe_request_mk2.tip1=Тип: Активный запросчик
 item.logisticspipes.pipe_request_mk2.tip2= - Быстрее, чем Мод.1
-item.logisticspipes.pipe_request_mk2.tip3= - Позволяет вручную запрашивать предметы
-item.logisticspipes.pipe_request_mk2.tip4= - Предметы могут приходить от любого Logistics поставщика
-item.logisticspipes.pipe_request_mk2.tip5=   А также в результате комплекса преобразований
+item.logisticspipes.pipe_request_mk2.tip3= - Позволяет вручную заказывать предметы
+item.logisticspipes.pipe_request_mk2.tip4= - Предметы могут запрашиваться от любого логистического поставщика,
+item.logisticspipes.pipe_request_mk2.tip5=   или приходить в результате преобразований
 item.logisticspipes.pipe_request_mk2.tip6= - Выбрасывает предметы, но может перехватывать и складывать их в подключённое хранилище
 
-item.logisticspipes.pipe_provider.name=Труба-поставщик: Логистическая
+item.logisticspipes.pipe_provider.name=Труба: Поставщик. Логистическая
 item.logisticspipes.pipe_provider.tip1=Тип: Поставщик предметов
 item.logisticspipes.pipe_provider.tip2= - Присоединяется к хранилищу
-item.logisticspipes.pipe_provider.tip3= - Посылает по 16 предметов в систему за запрос
-item.logisticspipes.pipe_provider.tip4= - Игнорирует трубу снабжения, находящиеся на этом же блоке
+item.logisticspipes.pipe_provider.tip3= - По запросу, отсылает порциями по 16 предметов в логистическую систему
+item.logisticspipes.pipe_provider.tip4= - Игнорирует трубы обеспечения, находящиеся на этом же блоке
 
-item.logisticspipes.pipe_provider_mk2.name=Труба-поставщик Мод.2: Логистическая
+item.logisticspipes.pipe_provider_mk2.name=Труба: Поставщик Мод.2. Логистическая
 item.logisticspipes.pipe_provider_mk2.tip1=Тип: Поставщик предметов
 item.logisticspipes.pipe_provider_mk2.tip2= - Присоединяется к хранилищу
-item.logisticspipes.pipe_provider_mk2.tip3= - Посылает по стаку предметов в систему за запрос
-item.logisticspipes.pipe_provider_mk2.tip4= - Игнорирует трубу снабжения, находящиеся на этом же блоке
+item.logisticspipes.pipe_provider_mk2.tip3= - По запросу, отсылает порциями по 64 предмета в логистическую систему
+item.logisticspipes.pipe_provider_mk2.tip4= - Игнорирует трубы обеспечения, находящиеся на этом же блоке
 
-item.logisticspipes.pipe_crafting.name=Труба-создатель: Логистическая
-item.logisticspipes.pipe_crafting.tip1=Тип: Активный запросчик, затем поставщик
+item.logisticspipes.pipe_crafting.name=Труба: Создатель. Логистическая
+item.logisticspipes.pipe_crafting.tip1=Тип: Активный запросчик, а после преобразования - поставщик
 item.logisticspipes.pipe_crafting.tip2= - Создаёт по предмету за раз
-item.logisticspipes.pipe_crafting.tip3= - Присоединяется, например, к Logistics верстакам и не только
-item.logisticspipes.pipe_crafting.tip4= - По запросу автоматически создаёт предмет внутри подключённого механизма
-item.logisticspipes.pipe_crafting.tip5= - Может объединятся с вспомогательной логической трубой
+item.logisticspipes.pipe_crafting.tip3= - Присоединяется, например, к логистическим верстакам и не только
+item.logisticspipes.pipe_crafting.tip4= - По запросу помещает предмет внутрь подключённого механизма и ожидает выход продукта(ов)
+item.logisticspipes.pipe_crafting.tip5= - Может объединятся с вспомогательной логистической трубой
 
-item.logisticspipes.pipe_crafting_mk2.name=Труба-создатель Мод.2: Логистическая
-item.logisticspipes.pipe_crafting_mk2.tip1=Тип: Активный запросчик, затем поставщик
-item.logisticspipes.pipe_crafting_mk2.tip2= - Создаёт по 16 предметов за раз
-item.logisticspipes.pipe_crafting_mk2.tip3= - Присоединяется, например, к Logistics верстакам и не только
-item.logisticspipes.pipe_crafting_mk2.tip4= - По запросу автоматически создаёт предметы внутри подключённого механизма
-item.logisticspipes.pipe_crafting_mk2.tip5= - Может объединятся с вспомогательной логической трубой
+item.logisticspipes.pipe_crafting_mk2.name=Труба: Создатель Мод.2. Логистическая
+item.logisticspipes.pipe_crafting_mk2.tip1=Тип: Активный запросчик, а после преобразования - поставщик
+item.logisticspipes.pipe_crafting_mk2.tip2= - Создаёт 16 предметов за раз
+item.logisticspipes.pipe_crafting_mk2.tip3= - Присоединяется, например, к логистическим верстакам и не только
+item.logisticspipes.pipe_crafting_mk2.tip4= - По запросу помещает предмет внутрь подключённого механизма и ожидает выход продукта(ов)
+item.logisticspipes.pipe_crafting_mk2.tip5= - Может объединятся с вспомогательной логистической трубой
 
-item.logisticspipes.pipe_crafting_mk3.name=Труба-создатель Мод.3: Логистическая
-item.logisticspipes.pipe_crafting_mk3.tip1=Тип: Активный запросчик, затем поставщик
-item.logisticspipes.pipe_crafting_mk3.tip2= - Создаёт по стаку предметов за раз
-item.logisticspipes.pipe_crafting_mk3.tip3= - Присоединяется, например, к Logistics верстакам и не только
-item.logisticspipes.pipe_crafting_mk3.tip4= - По запросу автоматически создаёт предметы внутри подключённого механизма
-item.logisticspipes.pipe_crafting_mk3.tip5= - Может объединятся с вспомогательной логической трубой
+item.logisticspipes.pipe_crafting_mk3.name=Труба: Создатель Мод.3. Логистическая
+item.logisticspipes.pipe_crafting_mk3.tip1=Тип: Активный запросчик, а после преобразования - поставщик
+item.logisticspipes.pipe_crafting_mk3.tip2= - Создаёт 64 предмета за раз
+item.logisticspipes.pipe_crafting_mk3.tip3= - Присоединяется, например, к логистическим верстакам и не только
+item.logisticspipes.pipe_crafting_mk3.tip4= - По запросу помещает предмет внутрь подключённого механизма и ожидает выход продукта(ов)
+item.logisticspipes.pipe_crafting_mk3.tip5= - Может объединятся с вспомогательной логистической трубой
 
-item.logisticspipes.pipe_satellite.name=Труба-вспомогатель: Логистическая
-item.logisticspipes.pipe_satellite.tip1=Тип: Активный запросчик и руководитель направлениями
-item.logisticspipes.pipe_satellite.tip2= - Труба создания может направлять предметы через данную трубу и загружать особые предметы
+item.logisticspipes.pipe_satellite.name=Труба: Вспомогательная. Логистическая
+item.logisticspipes.pipe_satellite.tip1=Тип: Активный запросчик и корректировщик маршрута
+item.logisticspipes.pipe_satellite.tip2= - %cITALIC Труба: Создатель %cRESET может перенаправлять предметы через данную трубу к другому входу
 
-item.logisticspipes.pipe_supplier.name=Труба-снабжатель: Логистическая
+item.logisticspipes.pipe_supplier.name=Труба: Обеспечения. Логистическая
 item.logisticspipes.pipe_supplier.tip1=Тип: Активный запросчик
 item.logisticspipes.pipe_supplier.tip2= - Автоматически снабжает хранилище или механизм
-item.logisticspipes.pipe_supplier.tip3= - Предметы могут приходить от любого Logistics поставщика
-item.logisticspipes.pipe_supplier.tip4= - Игнорирует трубы-поставщики, находящиеся на этом же блоке
+item.logisticspipes.pipe_supplier.tip3= - Предметы могут запрашиваться от любого логистического поставщика,
+item.logisticspipes.pipe_supplier.tip4=   или приходить в результате преобразований
+item.logisticspipes.pipe_supplier.tip5= - Игнорирует трубы-поставщики, находящиеся на этом же блоке
 
-item.logisticspipes.pipe_builder_supplier.name=Труба-снабжатель BC Строителя: Логистическая
-item.logisticspipes.pipe_builder_supplier.tip1=Тип: Активный запросчик предметов
+item.logisticspipes.pipe_builder_supplier.name=Труба: Обеспечения BuildCraft Строителя. Логистическая
+item.logisticspipes.pipe_builder_supplier.tip1=Тип: Активный запросчик
 item.logisticspipes.pipe_builder_supplier.tip2= - Автоматически заполняет BuildCraft/Строитель всеми необходимыми материалами
 
-item.logisticspipes.pipe_chassis_mk1.name=Шасси Мод.1: Логистическое
+item.logisticspipes.pipe_chassis_mk1.name=Шасси: Мод.1. Логистическое
 item.logisticspipes.pipe_chassis_mk1.tip1=Тип: Настраиваемая труба
 item.logisticspipes.pipe_chassis_mk1.tip2= - Может подключать 1 модуль
 
-item.logisticspipes.pipe_chassis_mk2.name=Шасси Мод.2: Логистическое
+item.logisticspipes.pipe_chassis_mk2.name=Шасси: Мод.2. Логистическое
 item.logisticspipes.pipe_chassis_mk2.tip1=Тип: Настраиваемая труба
 item.logisticspipes.pipe_chassis_mk2.tip2= - Может подключать 2 модуля
 
-item.logisticspipes.pipe_chassis_mk3.name=Шасси Мод.3: Логистическое
+item.logisticspipes.pipe_chassis_mk3.name=Шасси: Мод.3. Логистическое
 item.logisticspipes.pipe_chassis_mk3.tip1=Тип: Настраиваемая труба
 item.logisticspipes.pipe_chassis_mk3.tip2= - Может подключать 3 модуля
 
-item.logisticspipes.pipe_chassis_mk4.name=Шасси Мод.4: Логистическое
+item.logisticspipes.pipe_chassis_mk4.name=Шасси: Мод.4. Логистическое
 item.logisticspipes.pipe_chassis_mk4.tip1=Тип: Настраиваемая труба
 item.logisticspipes.pipe_chassis_mk4.tip2= - Может подключать 4 модуля
 
-item.logisticspipes.pipe_chassis_mk5.name=Шасси Мод.5: Логистическое
+item.logisticspipes.pipe_chassis_mk5.name=Шасси: Мод.5. Логистическое
 item.logisticspipes.pipe_chassis_mk5.tip1=Тип: Настраиваемая труба
 item.logisticspipes.pipe_chassis_mk5.tip2= - Может подключать 8 модулей
 
-item.logisticspipes.pipe_remote_orderer.name=Труба-запросчик (Дистанционная): Логистическая
+item.logisticspipes.pipe_remote_orderer.name=Труба: Заказчик. Дистанционная. Логистическая
 item.logisticspipes.pipe_remote_orderer.tip1=Тип: Активный запросчик
-item.logisticspipes.pipe_remote_orderer.tip2= - Позволяет вручную запрашивать предметы *удалённо*
-item.logisticspipes.pipe_remote_orderer.tip3= - Предметы могут приходить от любого Logistics поставщика
-item.logisticspipes.pipe_remote_orderer.tip4= - Для связи с этой трубой кликните ПКМ по ней дистанционным пультом
+item.logisticspipes.pipe_remote_orderer.tip2= - Позволяет вручную запрашивать предметы дистанционно
+item.logisticspipes.pipe_remote_orderer.tip3= - Предметы могут запрашиваться от любого логистического поставщика,
+item.logisticspipes.pipe_remote_orderer.tip4=   или приходить в результате преобразований
+item.logisticspipes.pipe_remote_orderer.tip5= - Для привязки этой трубы к дистанционному пульту - кликните *ПКМ* по ней этим пультом
 
 item.logisticspipes.pipe_inventory_system_connector.name=Межсистемный буферный соединитель: Логистический
 item.logisticspipes.pipe_inventory_system_connector.tip1=Тип: Переправа
-item.logisticspipes.pipe_inventory_system_connector.tip2= - Соединяет две логические системы вместе
+item.logisticspipes.pipe_inventory_system_connector.tip2= - Соединяет две логистические системы вместе
 item.logisticspipes.pipe_inventory_system_connector.tip3=   через общий буфер (хранилище)
 item.logisticspipes.pipe_inventory_system_connector.tip4= - Обычно используют сундук Края или аналогичные моды, но вы
-item.logisticspipes.pipe_inventory_system_connector.tip5=   также можете соорудить логику с вагонетками...
-
-# maybe
-item.logisticspipes.pipe_system_entrance.name=Входная системная труба: Логистическая
+item.logisticspipes.pipe_inventory_system_connector.tip5=   также можете соорудить сообщение через Ж/Д (Вагонеткой с сундуком)
+	*
+# todo fix
+item.logisticspipes.pipe_system_entrance.name=Труба: Внутрисистемная. Входная. Логистическая
 item.logisticspipes.pipe_system_entrance.tip1=Тип: Маршрутизатор
 item.logisticspipes.pipe_system_entrance.tip2= - Отправляет предметы без назначения (например, новые или случайные)
-item.logisticspipes.pipe_system_entrance.tip3=   в присоединённую трубу назаначения
-item.logisticspipes.pipe_system_entrance.tip4= - Оба: Вход и назаначение должны быть соединены
+item.logisticspipes.pipe_system_entrance.tip3=   в присоединённую трубу назначения
+item.logisticspipes.pipe_system_entrance.tip4= - Оба: Вход и назначение должны быть соединены
 item.logisticspipes.pipe_system_entrance.tip5=   закодированной на единую частоту картой
 
-# maybe
-item.logisticspipes.pipe_system_destination.name=Системная труба назаначения: Логистическая
+# todo fix
+item.logisticspipes.pipe_system_destination.name=Труба: Внутрисистемная. Назначения. Логистическая
 item.logisticspipes.pipe_system_destination.tip1=Тип: Условное назначение
 item.logisticspipes.pipe_system_destination.tip2= - Получает предметы без назначения (например, новые или случайные)
 item.logisticspipes.pipe_system_destination.tip3=   от присоединённой входной трубы
-item.logisticspipes.pipe_system_destination.tip4= - Оба: Вход и назаначение должны быть соединены
+item.logisticspipes.pipe_system_destination.tip4= - Оба: Вход и назначение должны быть соединены
 item.logisticspipes.pipe_system_destination.tip5=   закодированной на единую частоту картой
 
-item.logisticspipes.pipe_firewall.name=Межсетевой экран: Логистическая
+item.logisticspipes.pipe_firewall.name=Межсетевой экран. Логистический
 item.logisticspipes.pipe_firewall.tip1=Тип: Фильтр запросов
 item.logisticspipes.pipe_firewall.tip2= - Позволяет подключать "враждебные" системы, позволяя
 item.logisticspipes.pipe_firewall.tip3=   при этом проходить только конкретным предметам
-
+	*
+# todo fix
 item.logisticspipes.pipe_fluid_supplier.name=Снабжатель жидкостными контейнерами: Логистический
 item.logisticspipes.pipe_fluid_supplier.tip1=Использует ёмкости с жидкостью для наполнения подключённой цистерны
-
+# todo fix
 item.logisticspipes.pipe_fluid_supplier_mk2.name=Снабжатель жидкостями Мод.2: Логистический
 item.logisticspipes.pipe_fluid_supplier_mk2.tip1=Запрашивает жидкости из жидкостной трубы-поставщика
 
-item.logisticspipes.pipe_fluid_connector.name=Жидкостная труба-соединитель: Логистическая
-item.logisticspipes.pipe_fluid_basic.name=Жидкостная базовая труба: Логистическая
-item.logisticspipes.pipe_fluid_insertion.name=Жидкостная внедряющая труба: Логистическая
-item.logisticspipes.pipe_fluid_provider.name=Жидкостная труба-поставщик: Логистическая
-item.logisticspipes.pipe_fluid_request.name=Жидкостная труба-запросчик: Логистическая
-item.logisticspipes.pipe_fluid_extractor.name=Жидкостная труба-извлекатель: Логистическая
-item.logisticspipes.pipe_fluid_satellite.name=Жидкостная труба-вспомогатель: Логистическая
-item.logisticspipes.pipe_request_table.name=Столик-запросчик: Логистический
+item.logisticspipes.pipe_fluid_connector.name=Труба: Жидкостная. Соединитель. Логистическая
+item.logisticspipes.pipe_fluid_basic.name=Труба: Жидкостная. Базовая. Логистическая
+item.logisticspipes.pipe_fluid_insertion.name=Труба: Жидкостная. Внедряющая. Логистическая
+item.logisticspipes.pipe_fluid_provider.name=Труба: Жидкостная. Поставщик. Логистическая
+item.logisticspipes.pipe_fluid_request.name=Труба: Жидкостная. Заказчик. Логистическая
+item.logisticspipes.pipe_fluid_extractor.name=Труба: Жидкостная. Извлекатель. Логистическая
+item.logisticspipes.pipe_fluid_satellite.name=Труба: Жидкостная. Вспомогатель. Логистическая
+item.logisticspipes.pipe_request_table.name=Верстак: Заказчик. Логистический
 
+# todo fix
 item.logisticspipes.pipe_hs_curve.name=Высокоскоростная искривленная труба
 item.logisticspipes.pipe_hs_speedup.name=Высокоскоростная разгоняющая труба
 item.logisticspipes.pipe_hs_s_curve.name=Высокоскоростная сигмоид-искривленная труба
@@ -164,64 +167,62 @@ item.logisticspipes.pipe_hs_gain.name=Высокоскоростная восх�
 
 # Модули
 
-item.logisticspipes.module_blank.name=Чистый модуль
+item.logisticspipes.module_blank.name=Пустой модуль
 item.logisticspipes.module_item_sink.name=Модуль: ItemSink
-item.logisticspipes.module_passive_supplier.name=Модуль: Снабжатель (Пассивный)
+item.logisticspipes.module_passive_supplier.name=Модуль: Обеспечения. Пассивный
 item.logisticspipes.module_extractor.name=Модуль: Извлекатель
-item.logisticspipes.module_item_sink_polymorphic.name=Модуль: ItemSink (Полиморфный)
+item.logisticspipes.module_item_sink_polymorphic.name=Модуль: ItemSink. Полиморфный
 item.logisticspipes.module_quick_sort.name=Модуль: Быстрая сортировка
+item.logisticspipes.module_terminus.name=Модуль: Окончательное назначение
 #
-# maybe next text are wrong
-item.logisticspipes.module_terminus.name=Модуль: Конечная (Самый низкий приоритет назаначения)
-#
-item.logisticspipes.module_extractor_advanced.name=Модуль: Извлекатель (Продвинутый)
+item.logisticspipes.module_extractor_advanced.name=Модуль: Извлекатель. Продвинутый
 item.logisticspipes.module_extractor_mk2.name=Модуль: Извлекатель Мод.2
-item.logisticspipes.module_extractor_advanced_mk2.name=Модуль: Извлекатель Мод.2 (Продвинутый)
+item.logisticspipes.module_extractor_advanced_mk2.name=Модуль: Извлекатель Мод.2. Продвинутый
 item.logisticspipes.module_extractor_mk3.name=Модуль: Извлекатель Мод.3
-item.logisticspipes.module_extractor_advanced_mk3.name=Модуль: Извлекатель Мод.3 (Продвинутый)
+item.logisticspipes.module_extractor_advanced_mk3.name=Модуль: Извлекатель Мод.3. Продвинутый
 item.logisticspipes.module_provider.name=Модуль: Поставщик
 item.logisticspipes.module_provider_mk2.name=Модуль: Поставщик Мод.2
-item.logisticspipes.module_item_sink_mod.name=Модуль: ItemSink (Фильтр по модам)
-item.logisticspipes.module_item_sink_oredict.name=Модуль: ItemSink (Словарь руд)
+item.logisticspipes.module_item_sink_mod.name=Модуль: ItemSink. Фильтр по модам
+item.logisticspipes.module_item_sink_oredict.name=Модуль: ItemSink. Словарь руд
 #
 # maybe next text are wrong
-item.logisticspipes.module_thaumic_aspect_sink.name=Модуль: Sink-Мод (Thaumic)
+item.logisticspipes.module_thaumic_aspect_sink.name=Модуль: Sink-Мод. Thaumic
 #
-item.logisticspipes.module_enchantment_sink.name=Модуль: Sink-зачарование
-item.logisticspipes.module_enchantment_sink_mk2.name=Модуль: Sink-зачарование Мод.2
+item.logisticspipes.module_enchantment_sink.name=Модуль: Sink Зачарование
+item.logisticspipes.module_enchantment_sink_mk2.name=Модуль: Sink Зачарование Мод.2
 #
 # maybe next text are wrong
-item.logisticspipes.module_item_sink_cc.name=Модуль: ItemSink (ComputerCraft)
-item.logisticspipes.module_quick_sort_cc.name=Модуль: Быстрая сортировка (ComputerCraft)
+item.logisticspipes.module_item_sink_cc.name=Модуль: ItemSink. ComputerCraft
+item.logisticspipes.module_quick_sort_cc.name=Модуль: Быстрая сортировка. ComputerCraft
 #
 item.logisticspipes.module_crafter.name=Модуль: Создатель
 item.logisticspipes.module_crafter_mk2.name=Модуль: Создатель Мод.2
 item.logisticspipes.module_crafter_mk3.name=Модуль: Создатель Мод.3
-item.logisticspipes.module_active_supplier.name=Модуль: Снабжатель (Активный)
+item.logisticspipes.module_active_supplier.name=Модуль: Обеспечения (Активный)
 #
 # maybe next text are wrong
-item.logisticspipes.module_item_sink_creativetab.name=Модуль: ItemSink (Фильтр по вкладкам из творческого режима)
+item.logisticspipes.module_item_sink_creativetab.name=Модуль: ItemSink. Фильтр по вкладкам модов (вкладки творческого режима)
 #
 
 
 # Предметы
 
-item.logisticspipes.broken_item.name=Разрушенный предмет [Logistics]
-item.logisticspipes.fluid_container.name=Жидкостный контейнер [Logistics]
+item.logisticspipes.broken_item.name=Разрушенный предмет. Логистический
+item.logisticspipes.fluid_container.name=Жидкостный контейнер. Логистический
 # %cRED (НЕ ОДОБРЕННОЕ) %cRESET
 item.logisticspipes.upgrade_manager.name=Диспетчер улучшений
 item.logisticspipes.parts.0.name=Очки с интерфейсом: Дужка и заушник
 item.logisticspipes.parts.1.name=Очки с интерфейсом: Линза
-item.logisticspipes.parts.2.name=Очки с интерфейсом: Носовой мостик
+item.logisticspipes.parts.2.name=Очки с интерфейсом: Носовая перекладина
 item.logisticspipes.parts.3.name=Нано-воронка
-item.logisticspipes.item_card.0.name=Предметная карта [Logistics]
+item.logisticspipes.item_card.0.name=Предметная карта. Логистическая
 item.logisticspipes.disk.name=Дискета
 # %cRED (НЕ ОДОБРЕННОЕ) %cRESET
 item.logisticspipes.network_monitor.name=Сетевой монитор
 item.logisticspipes.sign_creator.0.name=Создатель табличек
 item.logisticspipes.sign_creator.1.name=Создатель табличек-счётчиков
-item.logisticspipes.hud_glasses.name=Очки с интерфейсом [Logistics]
-item.logisticspipes.remote_orderer.name=Дист. пульт запросов [Logistics]
+item.logisticspipes.hud_glasses.name=Очки с интерфейсом. Логистические
+item.logisticspipes.remote_orderer.name=Дистанционный пульт
 item.logisticspipes.pipe_controller.name=Контроллер труб
 item.logisticspipes.pipe_manager.name=Диспетчер труб
 item.logisticspipes.logistics_programmer.name=Программатор
@@ -245,57 +246,57 @@ tooltip.logisticsItemCard=Эта карта не действительна
 tooltip.programmerForModule=Программа модуля загружена
 tooltip.programmerForPipe=Программа трубы загружена
 tooltip.programmerForUpgrade=Программа улучшения загружена
-tooltip.programmerForUnknown.1=%cYELLOW !!!АХТУНГ!!! %cRESET
-tooltip.programmerForUnknown.2=%cRED Действительная программа не загружена%cRESET
-tooltip.programmerForUnknown.3=%cRED ВАМ %cITALIC НУЖНО %cRESET %cRED ПРОШИТЬ ПРОГРАММАТОР, ПРЕЖДЕ ЧЕМ ВЫ БУДЕТЕ ИСПОЛЬЗОВАТЬ ЕГО ДЛЯ КРАФТА %cRESET
+tooltip.programmerForUnknown.1=%cRED !!!Прошивка не загружена!!! %cRESET
+tooltip.programmerForUnknown.2=%cRED ВАМ %cITALIC НУЖНО ЗАГРУЗИТЬ ТРЕБУЕМУЮ ПРОГРАММУ ПРЕЖДЕ, %cRESET %cRED ЧЕМ ВЫ БУДЕТЕ ИСПОЛЬЗОВАТЬ ПРОГРАММАТОР %cRESET
+tooltip.programmerForUnknown.3=%cYELLOW Воспользуйтесь Станцией-Компилятором %cRESET
 
 
 # Улучшения
 
-item.logisticspipes.upgrade_sneaky_up.name=Улучшение: Окольное присоединение (ВВЕРХУ)
-item.logisticspipes.upgrade_sneaky_down.name=Улучшение: Окольное присоединение (ВНИЗУ)
-item.logisticspipes.upgrade_sneaky_north.name=Улучшение: Окольное присоединение (СЕВЕР)
-item.logisticspipes.upgrade_sneaky_south.name=Улучшение: Окольное присоединение (ЮГ)
-item.logisticspipes.upgrade_sneaky_east.name=Улучшение: Окольное присоединение (ВОСТОК)
-item.logisticspipes.upgrade_sneaky_west.name=Улучшение: Окольное присоединение (ЗАПАД)
-item.logisticspipes.upgrade_sneaky_combination.name=Улучшение: Окольное присоединение (Комбинированное)
-item.logisticspipes.upgrade_speed.name=Улучшение: Ускорение пропускной способности труб
-item.logisticspipes.upgrade_disconnection_up.name=Улучшение: Разъединение (ВВЕРХУ)
-item.logisticspipes.upgrade_disconnection_down.name=Улучшение: Разъединение (ВНИЗУ)
-item.logisticspipes.upgrade_disconnection_north.name=Улучшение: Разъединение (СЕВЕР)
-item.logisticspipes.upgrade_disconnection_south.name=Улучшение: Разъединение (ЮГ)
-item.logisticspipes.upgrade_disconnection_east.name=Улучшение: Разъединение (ВОСТОК)
-item.logisticspipes.upgrade_disconnection_west.name=Улучшение: Разъединение (ЗАПАД)
-item.logisticspipes.upgrade_satellite_advanced.name=Улучшение: Вспомогатель (Продвинутый)
+item.logisticspipes.upgrade_sneaky_up.name=Улучшение: Окольное присоединение. ВВЕРХУ
+item.logisticspipes.upgrade_sneaky_down.name=Улучшение: Окольное присоединение. ВНИЗУ
+item.logisticspipes.upgrade_sneaky_north.name=Улучшение: Окольное присоединение. СЕВЕР
+item.logisticspipes.upgrade_sneaky_south.name=Улучшение: Окольное присоединение. ЮГ
+item.logisticspipes.upgrade_sneaky_east.name=Улучшение: Окольное присоединение. ВОСТОК
+item.logisticspipes.upgrade_sneaky_west.name=Улучшение: Окольное присоединение. ЗАПАД
+item.logisticspipes.upgrade_sneaky_combination.name=Улучшение: Окольное присоединение. Комбинированное
+item.logisticspipes.upgrade_speed.name=Улучшение: Ускоритель
+item.logisticspipes.upgrade_disconnection_up.name=Улучшение: Разъединение. ВВЕРХУ
+item.logisticspipes.upgrade_disconnection_down.name=Улучшение: Разъединение. ВНИЗУ
+item.logisticspipes.upgrade_disconnection_north.name=Улучшение: Разъединение. СЕВЕР
+item.logisticspipes.upgrade_disconnection_south.name=Улучшение: Разъединение. ЮГ
+item.logisticspipes.upgrade_disconnection_east.name=Улучшение: Разъединение. ВОСТОК
+item.logisticspipes.upgrade_disconnection_west.name=Улучшение: Разъединение. ЗАПАД
+item.logisticspipes.upgrade_satellite_advanced.name=Улучшение: Вспомогатель. Продвинутый
 item.logisticspipes.upgrade_fluid_crafting.name=Улучшение: Присутствие жидкостей при создании
 item.logisticspipes.upgrade_crafting_byproduct.name=Улучшение: Извлечение побочного продукта
 item.logisticspipes.upgrade_pattern.name=Улучшение: Порядок размещения
-item.logisticspipes.upgrade_fuzzy.name=Улучшение: Гибкая настройка свойств
+item.logisticspipes.upgrade_fuzzy.name=Улучшение: Поддержка настраиваемого верстака
 item.logisticspipes.upgrade_power_transportation.name=Улучшение: Передача энергии
 item.logisticspipes.upgrade_power_supplier_mj.name=Улучшение: Поставщик MJ-энергии
 item.logisticspipes.upgrade_power_supplier_rf.name=Улучшение: Поставщик RF-энергии
-item.logisticspipes.upgrade_power_supplier_eu_lv.name=Улучшение: Поставщик EU LV-энергии
-item.logisticspipes.upgrade_power_supplier_eu_mv.name=Улучшение: Поставщик EU MV-энергии
-item.logisticspipes.upgrade_power_supplier_eu_hv.name=Улучшение: Поставщик EU HV-энергии
-item.logisticspipes.upgrade_power_supplier_eu_ev.name=Улучшение: Поставщик EU EV-энергии
-item.logisticspipes.upgrade_cc_remote_control.name=Улучшение: Дистанционное управление (ComputerCraft)
+item.logisticspipes.upgrade_power_supplier_eu_lv.name=Улучшение: Поставщик EU. LV-энергии
+item.logisticspipes.upgrade_power_supplier_eu_mv.name=Улучшение: Поставщик EU. MV-энергии
+item.logisticspipes.upgrade_power_supplier_eu_hv.name=Улучшение: Поставщик EU. HV-энергии
+item.logisticspipes.upgrade_power_supplier_eu_ev.name=Улучшение: Поставщик EU. EV-энергии
+item.logisticspipes.upgrade_cc_remote_control.name=Улучшение: Дистанционное управление. ComputerCraft
 item.logisticspipes.upgrade_crafting_monitoring.name=Улучшение: Мониторинг создателя
-item.logisticspipes.upgrade_opaque.name=Улучшение: Сокрытие труб
+item.logisticspipes.upgrade_opaque.name=Улучшение: Непрозрачность трубы
 #
 #TODO: maybe next name are wrong
-item.logisticspipes.upgrade_crafting_cleanup.name=Улучшение: Очищение создателя
+item.logisticspipes.upgrade_crafting_cleanup.name=Улучшение: Очищение крафта
 #
 item.logisticspipes.upgrade_logic_controller.name=Улучшение: Контроллер логики
-item.logisticspipes.upgrade_module_upgrade.name=Улучшение: Модуль улучшения
+item.logisticspipes.upgrade_module_upgrade.name=Улучшение: Модуль поддержки улучшений
 item.logisticspipes.upgrade_sneaky.name=Улучшение: Окольное присоединение
 item.logisticspipes.upgrade_disconnection.name=Улучшение: Разъединение
-item.logisticspipes.upgrade_action_speed.name=Улучшение ускорения действий
+item.logisticspipes.upgrade_action_speed.name=Улучшение: Ускорение действий
 item.logisticspipes.upgrade_item_extraction.name=Улучшение: Извлечение предметов
-item.logisticspipes.upgrade_item_stack_extraction.name=Улучшение: извлечение по ItemStack
+item.logisticspipes.upgrade_item_stack_extraction.name=Улучшение: Извлечение по ItemStack
 
 # Подсказки улучшений
 
-item.upgrade.info.both1=Применяется к следующей трубе/блоку: %cYELLOW {0} %cRESET %cGRAY, 
+item.upgrade.info.both1=Применяется к следующей трубе/блоку: %cYELLOW {0} %cRESET %cGRAY, %cRESET 
 item.upgrade.info.both2=а также к модулю: %cYELLOW {0} %cRESET 
 item.upgrade.info.pipe=Применяется к следующей трубе/блоку: %cYELLOW {0} %cRESET 
 item.upgrade.info.module=Применяется к следующему модулю: %cYELLOW {0} %cRESET
@@ -306,7 +307,7 @@ item.upgrade.info.provider=ПОСТАВЩИК
 item.upgrade.info.itemsink=ItemSink
 item.upgrade.info.extractor=ИЗВЛЕКАТЕЛЬ
 item.upgrade.info.aextractor=ИЗВЛЕКАТЕЛЬ (ПРОДВИНУТЫЙ)
-item.upgrade.info.supplier=СНАБЖАТЕЛЬ
+item.upgrade.info.supplier=ОБЕСПЕЧИВАТЕЛЬ
 item.upgrade.info.requestblock=БЛОК ЗАПРОСОВ
 item.upgrade.info.chassis=ШАССИ
 item.upgrade.info.basic=БАЗОВАЯ
@@ -314,38 +315,38 @@ item.upgrade.info.basic=БАЗОВАЯ
 
 # Блоки
 
-tile.logisticspipes.frame.name=Базовая рама: Логистическая
+tile.logisticspipes.frame.name=Корпус
 tile.logisticspipes.soldering_station.name=Паяльная станция
-tile.logisticspipes.power_junction.name=Узел питания: Логистический
-tile.logisticspipes.security_station.name=Станция безопасности: Логистическая
-tile.logisticspipes.crafting_table.name=Простой верстак: Логистический
-tile.logisticspipes.crafting_table_fuzzy.name=Гибкий верстак: Логистический
-tile.logisticspipes.power_provider_mj.name=Поставщик MJ-энергии: Логистический
-tile.logisticspipes.power_provider_eu.name=Поставщик EU-энергии: Логистический
-tile.logisticspipes.power_provider_rf.name=Поставщик RF-энергии: Логистический
-tile.logisticspipes.statistics_table.name=Обработчик статистики: Логистический
-tile.logisticspipes.program_compiler.name=Станция-компилятор: Логистический
+tile.logisticspipes.power_junction.name=Узел питания. Логистический
+tile.logisticspipes.security_station.name=Станция безопасности.Логистическая
+tile.logisticspipes.crafting_table.name=Верстак. Логистический
+tile.logisticspipes.crafting_table_fuzzy.name=Верстак: Настраиваемый. Логистический
+tile.logisticspipes.power_provider_mj.name=Поставщик MJ-энергии. Логистический
+tile.logisticspipes.power_provider_eu.name=Поставщик EU-энергии. Логистический
+tile.logisticspipes.power_provider_rf.name=Поставщик RF-энергии. Логистический
+tile.logisticspipes.statistics_table.name=Сборщик статистики. Логистический
+tile.logisticspipes.program_compiler.name=Станция - Компилятор: Логистическая
 
 
 # Разное
 
 itemGroup.Logistics_Pipes=Logistics Pipes
-misc.holdshift=<Зажмите %cYELLOW %cITALIC Shift %cRESET %cGRAY для просмотра подробностей>
+misc.holdshift=<Зажмите %cYELLOW %cITALIC Shift %cRESET %cGRAY для просмотра подробностей> %cRESET
 misc.extractionmode.Normal=Стандарт
-misc.extractionmode.LeaveFirst=Остав. Первый стак
-misc.extractionmode.LeaveLast=Ост. Последний стак
-misc.extractionmode.LeaveFirstAndLast=Ост. Первый и Посл. стаки
-misc.extractionmode.Leave1PerStack=Ост. Предмет за стак
-misc.extractionmode.Leave1PerType=Ост. Предмет за тип
+misc.extractionmode.LeaveFirst=Оставить 1й стак
+misc.extractionmode.LeaveLast=Ост. послед. стак
+misc.extractionmode.LeaveFirstAndLast=Ост. 1й и посл. стаки
+misc.extractionmode.Leave1PerStack=Предмет за стак
+misc.extractionmode.Leave1PerType=Предмет за тип
 misc.selectType=Выбрать тип
-misc.selectOreDict=Выбрать тип из списка руд
+misc.selectOreDict=Выбрать - список руд
 
 
 # Разные сообщения в чат
 
 #
 # maybe next name are wrong
-lp.chat.slotnotfound=Не смог найти этот внутренний слот. Косяк системы. Пожалуйста, попробуйте еще раз
+lp.chat.slotnotfound=Не смог найти этот внутренний слот. Что-то пошло не так. Пожалуйста, попробуйте еще раз или сообщите разработчику
 #
 lp.chat.permissiondenied=Доступ запрещен
 lp.chat.connectedtopipe=Присоединено к трубе
@@ -355,7 +356,7 @@ lp.hud.config.chassie.disabled=ВЫКЛЮЧЕНО: Шасси
 lp.hud.config.crafting.enabled=Показывать: Создание
 lp.hud.config.crafting.disabled=ВЫКЛЮЧЕНО: Создание
 lp.hud.config.invsyscon.enabled=Показывать: InvSysCon
-lp.hud.config.invsyscon.disabled=ВЫКЛЮЧЕНО: InvSysCon.
+lp.hud.config.invsyscon.disabled=ВЫКЛЮЧЕНО: InvSysCon
 lp.hud.config.powerjunction.enabled=Показывать: Узел питания
 lp.hud.config.powerjunction.disabled=ВЫКЛЮЧЕНО: Узел питания
 lp.hud.config.provider.enabled=Показывать: Поставщик
@@ -369,7 +370,7 @@ lp.hud.config.satellite.disabled=ВЫКЛЮЧЕНО: Вспомогатель
 gui.itemsink.Yes=Вкл
 gui.itemsink.No=ВЫКЛ
 gui.itemsink.Inventory=Инвентарь
-gui.itemsink.Defaultroute=Склад. сюда
+gui.itemsink.Defaultroute=Маршрут
 gui.itemsink.IgnoreData=Игнорировать: Data
 gui.itemsink.IgnoreNBT=Игнорировать: NBT
 gui.itemsink.import=Импорт
@@ -384,8 +385,8 @@ gui.crafting.Off=ВЫКЛ
 gui.crafting.Priority=Приоритет
 gui.crafting.Extra=Дополнительно
 gui.crafting.OreDict=Словарь руд
-gui.crafting.IgnDamage=Игнор. Повреждения
-gui.crafting.IgnNBT=Игнор. NBT
+gui.crafting.IgnDamage=Игнор. прочность
+gui.crafting.IgnNBT=Игнор. NBT тэги
 gui.crafting.OrePrefix=Перфикс руд
 gui.crafting.Include=Включать
 gui.crafting.Exclude=Исключать
@@ -416,7 +417,7 @@ gui.fluidsuppliermk2.No=НЕТ
 gui.fluidsuppliermk2.TargetInv=Поставляемые жидкости
 gui.fluidsuppliermk2.NONE=Пусто
 gui.fluidsuppliermk2.ONEBUCKET=1 Ведро
-gui.fluidsuppliermk2.TWOBUCKET=2 Ведера
+gui.fluidsuppliermk2.TWOBUCKET=2 Ведра
 gui.fluidsuppliermk2.FIVEBUCKET=5 Вёдер
 
 gui.fluidsupplier.TargetInv=Поставляемые жидкости
@@ -445,23 +446,23 @@ gui.powerprovider.StoredEnergy=Энергии накоплено:
 gui.providerpipe.TargetInv=Предметы для поставки (пусто - все)
 gui.providerpipe.Inventory=Инвентарь
 gui.providerpipe.Mode=Режим
-gui.providerpipe.Exclude=Исключать
-gui.providerpipe.Include=Включать
-gui.providerpipe.Switch=Переключится
+gui.providerpipe.Exclude=Исключ.
+gui.providerpipe.Include=Включ.
+gui.providerpipe.Switch=Переключ.
 
 gui.routingstats.Session=Сессия
-gui.routingstats.Lifetime=Время работы
-gui.routingstats.Sent=Отправл.
-gui.routingstats.Recieved=Получено
+gui.routingstats.Lifetime=Время раб.
+gui.routingstats.Sent=Отправ.
+gui.routingstats.Recieved=Получ.
 gui.routingstats.Relayed=Передано
-gui.routingstats.RoutingTableSize=Размер таб. маршрутизации
+gui.routingstats.RoutingTableSize=Разм. табл. маршрут.
 
 
 gui.routingstats.exit=Нажмите <ESC> для выхода
 
 gui.satellite.SatelliteName=Имя Вспомогателя
 
-gui.securitystation.Open=Откр.
+gui.securitystation.Open=Отк.
 #
 # maybe next name are wrong
 gui.securitystation.EditTable=Внести в станцию изменения
@@ -469,68 +470,68 @@ gui.securitystation.EditTable=Внести в станцию изменения
 gui.securitystation.Authorize=Получ. доступ
 gui.securitystation.Deauthorize=Выйти
 gui.securitystation.SecurityStation=Станция безопасности
-gui.securitystation.allowCCAccess=Разреш. доступ ComputerCraft'у
-gui.securitystation.excludeIDs=Исключать ID ComputerCraft'а
-gui.securitystation.pipeRemove=Разреш. автоудаление труб
+gui.securitystation.allowCCAccess=Разреш. дост. CCraft'у
+gui.securitystation.excludeIDs=Искл. ID CCraft'а
+gui.securitystation.pipeRemove=Разр. автоудал. труб
 gui.securitystation.Player=Игрок
 gui.securitystation.SecurityCards=Карты безопасности
 gui.securitystation.Inventory=Инвентарь
-gui.securitystation.ChannelManager=Диспетчер каналов
+gui.securitystation.ChannelManager=Диспетч. каналов
 gui.securitystation.popup.ccAccess.Remove=Удалить
-gui.securitystation.popup.ccAccess.Add=Добавить
-gui.securitystation.popup.player.Close=Закрыть
+gui.securitystation.popup.ccAccess.Add=Добав.
+gui.securitystation.popup.player.Close=Закр.
 gui.securitystation.popup.player.Player=Полномочия
-gui.securitystation.popup.player.ConfigureSettings=Настраивать параметры
-gui.securitystation.popup.player.ActiveRequesting=Активное запрашивание
-gui.securitystation.popup.player.UpgradePipes=Улучшение труб
+gui.securitystation.popup.player.ConfigureSettings=Настр. парам.
+gui.securitystation.popup.player.ActiveRequesting=Актив. запрашивание
+gui.securitystation.popup.player.UpgradePipes=Улучш. труб
 gui.securitystation.popup.player.CheckNetwork=Проверка системы
-gui.securitystation.popup.player.RemovePipes=Удаление труб
-gui.securitystation.popup.player.AccessRoutingChannels=Доступ к маршрутизации
+gui.securitystation.popup.player.RemovePipes=Удал. труб
+gui.securitystation.popup.player.AccessRoutingChannels=Доступ к маршрут.
 
-gui.supplierpipe.TargetInv=Поставляемые предметы
-gui.supplierpipe.TargetInvPattern=Поставляемые предметы для указанных слотов
+gui.supplierpipe.TargetInv=Поставл. предметы
+gui.supplierpipe.TargetInvPattern=Поставл. предметы для ук. слотов
 gui.supplierpipe.Inventory=Инвентарь
 gui.supplierpipe.RequestMode=Режим запроса
 
 gui.upgrademanager.Upgrades=Улучшения
 gui.upgrademanager.Inventory=Инвентарь
-gui.upgrademanager.SneakyUpgrades=Скрывающие улучшения
+gui.upgrademanager.SneakyUpgrades=Окольные улучшения
 
 gui.pipecontroller.upgrade=Улучшения
 gui.pipecontroller.inventory=Инвентарь
-gui.pipecontroller.sneakyUpgrades=Скрывающие
+gui.pipecontroller.sneakyUpgrades=Окольные
 gui.pipecontroller.security=Защита
 gui.pipecontroller.Session=Сессия
 gui.pipecontroller.Lifetime=Время работы
 gui.pipecontroller.Sent=Отправ.
-gui.pipecontroller.Recieved=Получено
-gui.pipecontroller.Relayed=Передано
+gui.pipecontroller.Recieved=Получ.
+gui.pipecontroller.Relayed=Перед.
 gui.pipecontroller.RoutingTableSize=Размер таб. маршрут.
-gui.pipecontroller.popup.disconnectTitle=Настройка разъединителя
-gui.pipecontroller.popup.sneakyTitle=Настройка окольного подключёния
+gui.pipecontroller.popup.disconnectTitle=Настр. разъед.
+gui.pipecontroller.popup.sneakyTitle=Наст. околь. подкл.
 
-gui.networkstatistics.amount=Количество путей
-gui.networkstatistics.crafting=Выполняющиеся задачи крафта
+gui.networkstatistics.amount=Кол-во путей
+gui.networkstatistics.crafting=Выполняющ. задачи крафта
 gui.networkstatistics.gettasks=Поручить задачу
-gui.networkstatistics.add.alreadytracked=Этот тип предмета уже отслеживается
+gui.networkstatistics.add.alreadytracked=Тип предмета уже отслеж.
 
 gui.compiler.logisticspipes.compilercategory.basic=Базовые
-gui.compiler.logisticspipes.compilercategory.tier_2=Тир 2
+gui.compiler.logisticspipes.compilercategory.tier_2=Продвинутые
 gui.compiler.logisticspipes.compilercategory.fluid=Жидкостные
-gui.compiler.logisticspipes.compilercategory.tier_3=Тир 3
-gui.compiler.logisticspipes.compilercategory.chassis=Шасси
-gui.compiler.logisticspipes.compilercategory.chassis_2=Шасси Тир 2
-gui.compiler.logisticspipes.compilercategory.chassis_3=Шасси Тир 3
-gui.compiler.logisticspipes.compilercategory.modded=Модификации
+gui.compiler.logisticspipes.compilercategory.tier_3=Экспертные
+gui.compiler.logisticspipes.compilercategory.chassis=Шасси. Базовые
+gui.compiler.logisticspipes.compilercategory.chassis_2=Шасси. Продвинутые
+gui.compiler.logisticspipes.compilercategory.chassis_3=Шасси. Экспертные
+gui.compiler.logisticspipes.compilercategory.modded=Моды
 
 gui.compiler.processing=Обрабатывается...
-gui.compiler.nopower.1=%cRED Нет питания%cRESET
-gui.compiler.nopower.2=%cYELLOW (Не подключены к LP)%cRESET 
+gui.compiler.nopower.1=%cRED Нет питания %cRESET
+gui.compiler.nopower.2=%cYELLOW (Не подключены к LP) %cRESET 
 
-gui.settings.pipenewrenderer=Использовать новый рендер
-gui.settings.pipefallbackrenderer=Использовать резервный рендер
-gui.settings.piperenderdistance=Макс. растояние для просчета нового рендера
-gui.settings.pipecontentrenderdistance=Макс. растояние для просчета содержимого труб
+gui.settings.pipenewrenderer=Исп. новый рендер
+gui.settings.pipefallbackrenderer=Исп. резервный рендер
+gui.settings.piperenderdistance=Макс. раcст. для просчета н.р.
+gui.settings.pipecontentrenderdistance=Макс. раcст. для просчета сод. труб
 
 gui.popup.selectchannel.title=Выбор канала
 
@@ -551,11 +552,11 @@ gui.popup.managechannel.deletedialog.title=Вы действительно хо�
 gui.popup.managechannel.deletedialog.yes=Да
 gui.popup.managechannel.deletedialog.no=НЕТ
 
-gui.popup.selectsatellite.title=Выбрать трубу-вспомогатель
+gui.popup.selectsatellite.title=Выб. трубу-вспомог.
 gui.popup.selectsatellite.select=Выбрать
 gui.popup.selectsatellite.exit=Выйти
 gui.popup.selectsatellite.unset=Сброс
 
-itemstackinfo.lprouteditem=%cRED Предмет с сохраненной информацией маршрутизации LogisticsPipes
-itemstackinfo.lproutediteminfo=%cYELLOW Выбросите и подберите его, чтобы удалить LP информацию и исправить его
-itemstackinfo.lprouteditemtype=Хранящийся предмет
+itemstackinfo.lprouteditem=%cRED Предмет с сохраненной информацией маршрутизации мода: Logistics Pipes %cRESET
+itemstackinfo.lproutediteminfo=%cYELLOW Выбросите и подберите его, чтобы удалить LP информацию и починить его %cRESET
+itemstackinfo.lprouteditemtype=Тип: Циркулирующий предмет

@@ -1,0 +1,112 @@
+# Copyright (c) 2015  RS485
+#
+# "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
+# License 1.0, or MMPL. Please check the contents of the license located in
+# https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md
+
+# Pipes
+
+item.PipeItemsBasicLogistics=Tubo Logistico Base
+item.PipeItemsBasicLogistics.tip3=Mette tipi specifici di oggetti nelle casse.
+item.PipeItemsBasicLogistics.tip4=Può essere la destinazione di default.
+
+item.PipeItemsRequestLogistics=Tubo Logistico di Richiesta
+item.PipeItemsRequestLogistics.tip1=Requester attivo
+item.PipeItemsRequestLogistics.tip2=Ti permette di richiedere manualmente oggetti
+
+item.PipeItemsRequestLogisticsMk2=Tubo Logistico di Richiesta Mk2
+item.PipeItemsRequestLogisticsMk2.tip2=Più veloce di un Mk1
+item.PipeItemsRequestLogisticsMk2.tip3=Ti permette di richiedere manualmente oggetti
+
+item.PipeItemsProviderLogistics=Tubo Logistico Rifornitore
+
+item.PipeItemsProviderLogisticsMk2=Tubo Logistico Rifornitore Mk2
+
+item.PipeItemsCraftingLogistics=Tubo Logistico Crafting
+
+item.PipeItemsCraftingLogisticsMk2=Tubo Logistico Crafting Mk2
+
+item.PipeItemsCraftingLogisticsMk3=Tubo Logistico Crafting Mk3
+
+item.PipeItemsSatelliteLogistics=Tubo Logistico Satellite
+
+item.PipeItemsSupplierLogistics=Tubo Logistico Fornitore
+
+item.PipeItemsBuilderSupplierLogistics=Tubo Logistico Fornitore Builder
+
+item.PipeLogisticsChassiMk1=Telaio Logistico Mk1
+
+item.PipeLogisticsChassiMk2=Telaio Logistico Mk2
+item.PipeLogisticsChassiMk2.tip2=Può contenere 2 moduli.
+
+item.PipeLogisticsChassiMk3=Telaio Logistico Mk3
+item.PipeLogisticsChassiMk3.tip1=Tipo\: mixato
+item.PipeLogisticsChassiMk3.tip2=Può contenere 3 moduli.
+
+item.PipeLogisticsChassiMk4=Telaio Logistico Mk4
+
+item.PipeLogisticsChassiMk5=Telaio Logistico Mk5
+
+item.PipeItemsRemoteOrdererLogistics=Telecomando per Tubo Logistico
+
+item.PipeItemsApiaristAnalyser=Tubo Logistico Analizzatore Api
+item.PipeItemsApiaristAnalyser.tip2=Destinazione passiva per api non analizzate
+
+item.PipeItemsApiaristSink=Tubo Logistico Sincronizzazione Api
+item.PipeItemsApiaristSink.tip1=Tipo\: Destinazione Passiva
+item.PipeItemsApiaristSink.tip2=Destinazione passiva per api analizzate
+
+item.PipeItemsInvSysConnector=Sistema Logistico di Connessione Inventari
+item.PipeItemsInvSysConnector.tip1=Tipo\: ponte
+item.PipeItemsInvSysConnector.tip2=Connette 2 network logistici insieme
+
+item.PipeItemsSystemEntranceLogistics=Tubo Logistico Entrata nel sistema
+
+item.PipeItemsSystemDestinationLogistics=Tubo Logistico Destinazione del sistema
+
+
+item.PipeItemsFluidSupplier=Tubo Logistico Fornitore Fluidi
+
+# Modules
+
+#TODO: Add shift tooltip information
+item.ModuleExtractorMk3=Modulo estrattore MK3
+item.ModuleAdvancedExtractorMK3=Estrattore avanzato MK3
+
+# Items
+
+# %cRED (DEPRECATED) %cRESET
+# %cRED (DEPRECATED) %cRESET
+
+# Upgrades
+
+
+#Upgrade info
+
+
+# Blocks
+
+# Misc
+
+#Misc Chat messages
+
+
+# GUI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

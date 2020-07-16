@@ -1,0 +1,138 @@
+# Copyright (c) 2015  RS485
+#
+# "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
+# License 1.0, or MMPL. Please check the contents of the license located in
+# https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md
+
+# Pipes
+
+item.PipeItemsBasicLogistics=基本パイプ
+
+item.PipeItemsRequestLogistics=要求パイプ
+
+item.PipeItemsRequestLogisticsMk2=要求パイプMk2
+
+item.PipeItemsProviderLogistics=供給パイプ
+
+item.PipeItemsProviderLogisticsMk2=供給パイプMk2
+
+item.PipeItemsCraftingLogistics=加工パイプ
+item.PipeItemsCraftingLogistics.tip2=-一度に 1 つのアイテムをクラフトします。
+item.PipeItemsCraftingLogistics.tip4=自動的に要求されたとき自動的に内部アイテムをクラフトします。
+
+item.PipeItemsCraftingLogisticsMk2=加工パイプMk2
+
+item.PipeItemsCraftingLogisticsMk3=加工パイプMk3
+
+item.PipeItemsSatelliteLogistics=サテライトパイプ
+item.PipeItemsSatelliteLogistics.tip2=-加工パイプは追加の搬入物をここへ送ることができる
+
+item.PipeItemsSupplierLogistics=補給パイプ
+
+item.PipeItemsBuilderSupplierLogistics=ビルダー 補給パイプ
+
+item.PipeLogisticsChassiMk1=物流制御パイプ Mk1
+item.PipeLogisticsChassiMk1.tip2=-モジュールを１つセットできる
+
+item.PipeLogisticsChassiMk2=物流制御パイプ Mk2
+item.PipeLogisticsChassiMk2.tip2=-モジュールを２つセットできる
+
+item.PipeLogisticsChassiMk3=物流制御パイプ Mk3
+item.PipeLogisticsChassiMk3.tip2=-モジュールを３つセットできる
+
+item.PipeLogisticsChassiMk4=物流制御パイプ Mk4
+item.PipeLogisticsChassiMk4.tip2=-モジュールを４つセットできる
+
+item.PipeLogisticsChassiMk5=物流制御パイプ Mk5
+item.PipeLogisticsChassiMk5.tip2=-モジュールを８つセットできる
+
+item.PipeItemsRemoteOrdererLogistics=遠隔要求パイプ
+
+item.PipeItemsApiaristAnalyser=蜂鑑定パイプ
+
+item.PipeItemsApiaristSink=蜂回収パイプ
+
+
+
+
+item.PipeItemsFirewall=ファイアウォール パイプ
+
+item.PipeFluidBasic=液体基本パイプ\n
+item.PipeFluidRequestLogistics=液体要求パイプ
+item.PipeFluidSatellite=液体補佐パイプ
+item.PipeBlockRequestTable=ロジスティクスリクエストテーブル
+
+# Modules
+
+#TODO: Add shift tooltip information
+item.ModuleBlank=白紙のモジュール\n
+item.ModuleItemSink=アイテムシンクモジュール
+
+# Items
+
+# %cRED (DEPRECATED) %cRESET
+item.HUDbow=HUD眼鏡のツル
+item.HUDglass=HUD眼鏡のレンズ
+item.HUDnosebridge=HUD眼鏡のブリッジ
+# %cRED (DEPRECATED) %cRESET
+item.networkMonitorItem=ネットワークモニター
+item.logisticsHUDGlasses=HUD眼鏡
+
+# Upgrades
+
+
+#Upgrade info
+
+item.upgrade.info.all=全部
+item.upgrade.info.requestblock=ブロックを要求します。
+
+# Blocks
+tile.logisticspowerjunction=LP変換機
+tile.logisticscraftingtable=ロジスティクス作業台
+
+# Misc
+itemGroup.Logistics_Pipes=ロジスティクスパイプ
+
+#Misc Chat messages
+
+lp.hud.config.chassie.enabled=シャーシを有効にします。
+lp.hud.config.chassie.disabled=シャーシを無効にします。
+lp.hud.config.crafting.enabled=クラフトを有効にします。
+lp.hud.config.crafting.disabled=クラフトを無効にします。
+lp.hud.config.invsyscon.enabled=InvSysCon を有効にします。
+lp.hud.config.invsyscon.disabled=InvSysCon を無効にします。
+lp.hud.config.powerjunction.enabled=LP変換器を有効にします。
+lp.hud.config.powerjunction.disabled=LP変換器を無効にします。
+lp.hud.config.provider.enabled=プロバイダーを有効にします。
+lp.hud.config.provider.disabled=プロバイダーを無効にします。
+lp.hud.config.satellite.enabled=補佐を有効にします。
+lp.hud.config.satellite.disabled=補佐を無効にします。
+
+# GUI
+
+gui.crafting.Satellite=補佐
+
+
+
+gui.fluidsuppliermk2.Fluid=液体
+gui.fluidsuppliermk2.Yes=はい。
+
+
+
+
+gui.powerprovider.StoredEnergy=蓄積エネルギー
+
+gui.providerpipe.Inventory=インベントリ
+gui.providerpipe.Mode=モード
+gui.providerpipe.Switch=変更
+
+
+gui.satellite.SatelliteID=補佐ID
+
+gui.securitystation.popup.player.CheckNetwork=ネットワークをチェックします。
+
+
+
+
+
+
